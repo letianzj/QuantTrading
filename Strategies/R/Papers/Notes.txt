@@ -1,0 +1,5 @@
+A simple Metropolis-Hastings MCMC in R
+http://theoreticalecology.wordpress.com/2010/09/17/metropolis-hastings-mcmc-in-r/
+
+
+http://www.r-programming.org/papers

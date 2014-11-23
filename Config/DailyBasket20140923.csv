@@ -1,0 +1,598 @@
+Symbol,Category,Detail,Sector
+^GSPC,IDX,SPX,Index
+^NDX,IDX,NDX,Index
+^VIX,IDX,VIX,Index
+^FTSE,IDX,FTSE,Index
+^RUT,IDX,RUSSELL 2000,Index
+^HSI,IDX,HANG SENG,Index
+ABT,SPX,Abbott Laboratories,Health Care
+ABBV,SPX,AbbVie,Health Care
+ACE,SPX,ACE Limited,Financials
+ACN,SPX,Accenture plc,Information Technology
+ACT,SPX,Actavis plc,Health Care
+ADBE,SPX,Adobe Systems Inc,Information Technology
+ADT,SPX,ADT Corp,Industrials
+AES,SPX,AES Corp,Utilities
+AET,SPX,Aetna Inc,Health Care
+AFL,SPX,AFLAC Inc,Financials
+AMG,SPX,Affiliated Managers Group Inc,Financials
+A,SPX,Agilent Technologies Inc,Health Care
+GAS,SPX,AGL Resources Inc.,Utilities
+APD,SPX,Air Products & Chemicals Inc,Materials
+ARG,SPX,Airgas Inc,Materials
+AKAM,SPX,Akamai Technologies Inc,Information Technology
+AA,SPX,Alcoa Inc,Materials
+ALXN,SPX,Alexion Pharmaceuticals,Health Care
+ATI,SPX,Allegheny Technologies Inc,Materials
+ALLE,SPX,Allegion,Industrials
+AGN,SPX,Allergan Inc,Health Care
+ADS,SPX,Alliance Data Systems,Information Technology
+ALL,SPX,Allstate Corp,Financials
+ALTR,SPX,Altera Corp,Information Technology
+MO,SPX,Altria Group Inc,Consumer Staples
+AMZN,SPX,Amazon.com Inc,Consumer Discretionary
+AEE,SPX,Ameren Corp,Utilities
+AEP,SPX,American Electric Power,Utilities
+AXP,SPX,American Express Co,Financials
+AIG,SPX,American International Group,Financials
+AMT,SPX,American Tower Corp A,Financials
+AMP,SPX,Ameriprise Financial,Financials
+ABC,SPX,AmerisourceBergen Corp,Health Care
+AME,SPX,Ametek,Industrials
+AMGN,SPX,Amgen Inc,Health Care
+APH,SPX,Amphenol Corp A,Industrials
+APC,SPX,Anadarko Petroleum Corp,Energy
+ADI,SPX,Analog Devices,Information Technology
+AON,SPX,Aon plc,Financials
+APA,SPX,Apache Corporation,Energy
+AIV,SPX,Apartment Investment & Mgmt,Financials
+AAPL,SPX,Apple Inc.,Information Technology
+AMAT,SPX,Applied Materials Inc,Information Technology
+ADM,SPX,Archer-Daniels-Midland Co,Consumer Staples
+AIZ,SPX,Assurant Inc,Financials
+T,SPX,AT&T Inc,Telecommunications Services
+ADSK,SPX,Autodesk Inc,Information Technology
+ADP,SPX,Automatic Data Processing,Information Technology
+AN,SPX,AutoNation Inc,Consumer Discretionary
+AZO,SPX,AutoZone Inc,Consumer Discretionary
+AVGO,SPX,Avago Technologies,Information Technology
+AVB,SPX,AvalonBay Communities,Financials
+AVY,SPX,Avery Dennison Corp,Materials
+AVP,SPX,Avon Products,Consumer Staples
+BHI,SPX,Baker Hughes Inc,Energy
+BLL,SPX,Ball Corp,Materials
+BAC,SPX,Bank of America Corp,Financials
+BK,SPX,The Bank of New York Mellon Corp.,Financials
+BCR,SPX,Bard (C.R.) Inc.,Health Care
+BAX,SPX,Baxter International Inc.,Health Care
+BBT,SPX,BB&T Corporation,Financials
+BDX,SPX,Becton Dickinson,Health Care
+BBBY,SPX,Bed Bath & Beyond,Consumer Discretionary
+BMS,SPX,Bemis Company,Materials
+BRK.B,SPX,Berkshire Hathaway,Financials
+BBY,SPX,Best Buy Co. Inc.,Consumer Discretionary
+BIIB,SPX,BIOGEN IDEC Inc.,Health Care
+BLK,SPX,BlackRock,Financials
+HRB,SPX,Block H&R,Financials
+BA,SPX,Boeing Company,Industrials
+BWA,SPX,BorgWarner,Consumer Discretionary
+BXP,SPX,Boston Properties,Financials
+BSX,SPX,Boston Scientific,Health Care
+BMY,SPX,Bristol-Myers Squibb,Health Care
+BRCM,SPX,Broadcom Corporation,Information Technology
+BF.B,SPX,Brown-Forman Corporation,Consumer Staples
+CHRW,SPX,C. H. Robinson Worldwide,Industrials
+CA,SPX,CA,Information Technology
+CVC,SPX,Cablevision Systems Corp.,Consumer Discretionary
+COG,SPX,Cabot Oil & Gas,Energy
+CAM,SPX,Cameron International Corp.,Energy
+CPB,SPX,Campbell Soup,Consumer Staples
+COF,SPX,Capital One Financial,Financials
+CAH,SPX,Cardinal Health Inc.,Health Care
+CFN,SPX,Carefusion,Health Care
+KMX,SPX,Carmax Inc,Consumer Discretionary
+CCL,SPX,Carnival Corp.,Consumer Discretionary
+CAT,SPX,Caterpillar Inc.,Industrials
+CBG,SPX,CBRE Group,Financials
+CBS,SPX,CBS Corp.,Consumer Discretionary
+CELG,SPX,Celgene Corp.,Health Care
+CNP,SPX,CenterPoint Energy,Utilities
+CTL,SPX,CenturyLink Inc,Telecommunications Services
+CERN,SPX,Cerner,Health Care
+CF,SPX,CF Industries Holdings Inc,Materials
+SCHW,SPX,Charles Schwab Corporation,Financials
+CHK,SPX,Chesapeake Energy,Energy
+CVX,SPX,Chevron Corp.,Energy
+CMG,SPX,Chipotle Mexican Grill,Consumer Discretionary
+CB,SPX,Chubb Corp.,Financials
+CI,SPX,CIGNA Corp.,Health Care
+XEC,SPX,Cimarex Energy,Energy
+CINF,SPX,Cincinnati Financial,Financials
+CTAS,SPX,Cintas Corporation,Industrials
+CSCO,SPX,Cisco Systems,Information Technology
+C,SPX,Citigroup Inc.,Financials
+CTXS,SPX,Citrix Systems,Information Technology
+CLX,SPX,The Clorox Company,Consumer Staples
+CME,SPX,CME Group Inc.,Financials
+CMS,SPX,CMS Energy,Utilities
+COH,SPX,Coach Inc.,Consumer Discretionary
+KO,SPX,The Coca Cola Company,Consumer Staples
+CCE,SPX,Coca-Cola Enterprises,Consumer Staples
+CTSH,SPX,Cognizant Technology Solutions,Information Technology
+CL,SPX,Colgate-Palmolive,Consumer Staples
+CMCSA,SPX,Comcast Corp.,Consumer Discretionary
+CMA,SPX,Comerica Inc.,Financials
+CSC,SPX,Computer Sciences Corp.,Information Technology
+CAG,SPX,ConAgra Foods Inc.,Consumer Staples
+COP,SPX,ConocoPhillips,Energy
+CNX,SPX,CONSOL Energy Inc.,Energy
+ED,SPX,Consolidated Edison,Utilities
+STZ,SPX,Constellation Brands,Consumer Staples
+GLW,SPX,Corning Inc.,Industrials
+COST,SPX,Costco Co.,Consumer Staples
+COV,SPX,Covidien plc,Health Care
+CCI,SPX,Crown Castle International Corp.,Financials
+CSX,SPX,CSX Corp.,Industrials
+CMI,SPX,Cummins Inc.,Industrials
+CVS,SPX,CVS Caremark Corp.,Consumer Staples
+DHI,SPX,D. R. Horton,Consumer Discretionary
+DHR,SPX,Danaher Corp.,Industrials
+DRI,SPX,Darden Restaurants,Consumer Discretionary
+DVA,SPX,DaVita Inc.,Health Care
+DE,SPX,Deere & Co.,Industrials
+DLPH,SPX,Delphi Automotive,Consumer Discretionary
+DAL,SPX,Delta Air Lines,Industrials
+DNR,SPX,Denbury Resources Inc.,Energy
+XRAY,SPX,Dentsply International,Health Care
+DVN,SPX,Devon Energy Corp.,Energy
+DO,SPX,Diamond Offshore Drilling,Energy
+DTV,SPX,DirecTV,Consumer Discretionary
+DFS,SPX,Discover Financial Services,Financials
+DISCA,SPX,Discovery Communications-A,Consumer Discretionary
+DISCK,SPX,Discovery Communications-C,Consumer Discretionary
+DG,SPX,Dollar General,Consumer Discretionary
+DLTR,SPX,Dollar Tree,Consumer Discretionary
+D,SPX,Dominion Resources,Utilities
+DOV,SPX,Dover Corp.,Industrials
+DOW,SPX,Dow Chemical,Materials
+DPS,SPX,Dr Pepper Snapple Group,Consumer Staples
+DTE,SPX,DTE Energy Co.,Utilities
+DD,SPX,Du Pont (E.I.),Materials
+DUK,SPX,Duke Energy,Utilities
+DNB,SPX,Dun & Bradstreet,Industrials
+ETFC,SPX,E-Trade,Financials
+EMN,SPX,Eastman Chemical,Materials
+ETN,SPX,Eaton Corporation,Industrials
+EBAY,SPX,eBay Inc.,Information Technology
+ECL,SPX,Ecolab Inc.,Materials
+EIX,SPX,Edison Int'l,Utilities
+EW,SPX,Edwards Lifesciences,Health Care
+EA,SPX,Electronic Arts,Information Technology
+EMC,SPX,EMC Corp.,Information Technology
+EMR,SPX,Emerson Electric,Industrials
+ESV,SPX,Ensco plc,Energy
+ETR,SPX,Entergy Corp.,Utilities
+EOG,SPX,EOG Resources,Energy
+EQT,SPX,EQT Corporation,Energy
+EFX,SPX,Equifax Inc.,Financials
+EQR,SPX,Equity Residential,Financials
+ESS,SPX,Essex Property Trust Inc,Financials
+EL,SPX,Estee Lauder Cos.,Consumer Staples
+EXC,SPX,Exelon Corp.,Utilities
+EXPE,SPX,Expedia Inc.,Consumer Discretionary
+EXPD,SPX,Expeditors Int'l,Industrials
+ESRX,SPX,Express Scripts,Health Care
+XOM,SPX,Exxon Mobil Corp.,Energy
+FFIV,SPX,F5 Networks,Information Technology
+FB,SPX,Facebook,Information Technology
+FDO,SPX,Family Dollar Stores,Consumer Discretionary
+FAST,SPX,Fastenal Co,Industrials
+FDX,SPX,FedEx Corporation,Industrials
+FIS,SPX,Fidelity National Information Services,Information Technology
+FITB,SPX,Fifth Third Bancorp,Financials
+FSLR,SPX,First Solar Inc,Energy
+FE,SPX,FirstEnergy Corp,Utilities
+FISV,SPX,Fiserv Inc,Information Technology
+FLIR,SPX,FLIR Systems,Industrials
+FLS,SPX,Flowserve Corporation,Industrials
+FLR,SPX,Fluor Corp.,Industrials
+FMC,SPX,FMC Corporation,Materials
+FTI,SPX,FMC Technologies Inc.,Energy
+F,SPX,Ford Motor,Consumer Discretionary
+FOSL,SPX,Fossil,Consumer Discretionary
+BEN,SPX,Franklin Resources,Financials
+FCX,SPX,Freeport-McMoran Cp & Gld,Materials
+FTR,SPX,Frontier Communications,Telecommunications Services
+GME,SPX,GameStop Corp.,Consumer Discretionary
+GCI,SPX,Gannett Co.,Consumer Discretionary
+GPS,SPX,Gap (The),Consumer Discretionary
+GRMN,SPX,Garmin Ltd.,Consumer Discretionary
+GD,SPX,General Dynamics,Industrials
+GE,SPX,General Electric,Industrials
+GGP,SPX,General Growth Properties Inc.,Financials
+GIS,SPX,General Mills,Consumer Staples
+GM,SPX,General Motors,Consumer Discretionary
+GPC,SPX,Genuine Parts,Consumer Discretionary
+GNW,SPX,Genworth Financial Inc.,Financials
+GILD,SPX,Gilead Sciences,Health Care
+GS,SPX,Goldman Sachs Group,Financials
+GT,SPX,Goodyear Tire & Rubber,Consumer Discretionary
+GOOGL,SPX,Google Inc Class A,Information Technology
+GOOG,SPX,Google Inc Class C,Information Technology
+GWW,SPX,Grainger (W.W.) Inc.,Industrials
+HAL,SPX,Halliburton Co.,Energy
+HOG,SPX,Harley-Davidson,Consumer Discretionary
+HAR,SPX,Harman Int'l Industries,Consumer Discretionary
+HRS,SPX,Harris Corporation,Information Technology
+HIG,SPX,Hartford Financial Svc.Gp.,Financials
+HAS,SPX,Hasbro Inc.,Consumer Discretionary
+HCP,SPX,HCP Inc.,Financials
+HCN,SPX,Health Care REIT,Financials
+HP,SPX,Helmerich & Payne,Energy
+HES,SPX,Hess Corporation,Energy
+HPQ,SPX,Hewlett-Packard,Information Technology
+HD,SPX,Home Depot,Consumer Discretionary
+HON,SPX,Honeywell Int'l Inc.,Industrials
+HRL,SPX,Hormel Foods Corp.,Consumer Staples
+HSP,SPX,Hospira Inc.,Health Care
+HST,SPX,Host Hotels & Resorts,Financials
+HCBK,SPX,Hudson City Bancorp,Financials
+HUM,SPX,Humana Inc.,Health Care
+HBAN,SPX,Huntington Bancshares,Financials
+ITW,SPX,Illinois Tool Works,Industrials
+IR,SPX,Ingersoll-Rand PLC,Industrials
+TEG,SPX,Integrys Energy Group Inc.,Utilities
+INTC,SPX,Intel Corp.,Information Technology
+ICE,SPX,IntercontinentalExchange Inc.,Financials
+IBM,SPX,International Bus. Machines,Information Technology
+IP,SPX,International Paper,Materials
+IPG,SPX,Interpublic Group,Consumer Discretionary
+IFF,SPX,Intl Flavors & Fragrances,Materials
+INTU,SPX,Intuit Inc.,Information Technology
+ISRG,SPX,Intuitive Surgical Inc.,Health Care
+IVZ,SPX,Invesco Ltd.,Financials
+IRM,SPX,Iron Mountain Incorporated,Industrials
+JBL,SPX,Jabil Circuit,Information Technology
+JEC,SPX,Jacobs Engineering Group,Industrials
+JNJ,SPX,Johnson & Johnson,Health Care
+JCI,SPX,Johnson Controls,Consumer Discretionary
+JOY,SPX,Joy Global Inc.,Industrials
+JPM,SPX,JPMorgan Chase & Co.,Financials
+JNPR,SPX,Juniper Networks,Information Technology
+KSU,SPX,Kansas City Southern,Industrials
+K,SPX,Kellogg Co.,Consumer Staples
+KEY,SPX,KeyCorp,Financials
+GMCR,SPX,Keurig Green Mountain,Consumer Staples
+KMB,SPX,Kimberly-Clark,Consumer Staples
+KIM,SPX,Kimco Realty,Financials
+KMI,SPX,Kinder Morgan,Energy
+KLAC,SPX,KLA-Tencor Corp.,Information Technology
+KSS,SPX,Kohl's Corp.,Consumer Discretionary
+KRFT,SPX,Kraft Foods Group,Consumer Staples
+KR,SPX,Kroger Co.,Consumer Staples
+LB,SPX,L Brands Inc.,Consumer Discretionary
+LLL,SPX,L-3 Communications Holdings,Industrials
+LH,SPX,Laboratory Corp. of America Holding,Health Care
+LRCX,SPX,Lam Research,Information Technology
+LM,SPX,Legg Mason,Financials
+LEG,SPX,Leggett & Platt,Industrials
+LEN,SPX,Lennar Corp.,Consumer Discretionary
+LUK,SPX,Leucadia National Corp.,Financials
+LLY,SPX,Lilly (Eli) & Co.,Health Care
+LNC,SPX,Lincoln National,Financials
+LLTC,SPX,Linear Technology Corp.,Information Technology
+LMT,SPX,Lockheed Martin Corp.,Industrials
+L,SPX,Loews Corp.,Financials
+LO,SPX,Lorillard Inc.,Consumer Staples
+LOW,SPX,Lowe's Cos.,Consumer Discretionary
+LYB,SPX,LyondellBasell,Materials
+MTB,SPX,M&T Bank Corp.,Financials
+MAC,SPX,Macerich,Financials
+M,SPX,Macy's Inc.,Consumer Discretionary
+MMM,SPX,3M Company,Industrials
+MRO,SPX,Marathon Oil Corp.,Energy
+MPC,SPX,Marathon Petroleum,Energy
+MAR,SPX,Marriott Int'l.,Consumer Discretionary
+MMC,SPX,Marsh & McLennan,Financials
+MAS,SPX,Masco Corp.,Industrials
+MA,SPX,Mastercard Inc.,Information Technology
+MAT,SPX,Mattel Inc.,Consumer Discretionary
+MKC,SPX,McCormick & Co.,Consumer Staples
+MCD,SPX,McDonald's Corp.,Consumer Discretionary
+MHFI,SPX,McGraw Hill Financial,Financials
+MCK,SPX,McKesson Corp.,Health Care
+MJN,SPX,Mead Johnson,Consumer Staples
+MWV,SPX,MeadWestvaco Corporation,Materials
+MDT,SPX,Medtronic Inc.,Health Care
+MRK,SPX,Merck & Co.,Health Care
+MET,SPX,MetLife Inc.,Financials
+MCHP,SPX,Microchip Technology,Information Technology
+MU,SPX,Micron Technology,Information Technology
+MSFT,SPX,Microsoft Corp.,Information Technology
+MHK,SPX,Mohawk Industries,Consumer Discretionary
+TAP,SPX,Molson Coors Brewing Company,Consumer Staples
+MDLZ,SPX,Mondelez International,Consumer Staples
+MON,SPX,Monsanto Co.,Materials
+MNST,SPX,Monster Beverage,Consumer Staples
+MCO,SPX,Moody's Corp,Financials
+MS,SPX,Morgan Stanley,Financials
+MOS,SPX,The Mosaic Company,Materials
+MSI,SPX,Motorola Solutions Inc.,Information Technology
+MUR,SPX,Murphy Oil,Energy
+MYL,SPX,Mylan Inc.,Health Care
+NBR,SPX,Nabors Industries Ltd.,Energy
+NDAQ,SPX,NASDAQ OMX Group,Financials
+NOV,SPX,National Oilwell Varco Inc.,Energy
+NAVI,SPX,Navient Corp,Financials
+NTAP,SPX,NetApp,Information Technology
+NFLX,SPX,Netflix Inc.,Information Technology
+NWL,SPX,Newell Rubbermaid Co.,Consumer Discretionary
+NFX,SPX,Newfield Exploration Co,Energy
+NEM,SPX,Newmont Mining Corp. (Hldg. Co.),Materials
+NWSA,SPX,News Corporation,Consumer Discretionary
+NEE,SPX,NextEra Energy,Utilities
+NLSN,SPX,Nielsen Holdings,Industrials
+NKE,SPX,NIKE Inc.,Consumer Discretionary
+NI,SPX,NiSource Inc.,Utilities
+NE,SPX,Noble Corp,Energy
+NBL,SPX,Noble Energy Inc,Energy
+JWN,SPX,Nordstrom,Consumer Discretionary
+NSC,SPX,Norfolk Southern Corp.,Industrials
+NTRS,SPX,Northern Trust Corp.,Financials
+NOC,SPX,Northrop Grumman Corp.,Industrials
+NU,SPX,Northeast Utilities,Utilities
+NRG,SPX,NRG Energy,Utilities
+NUE,SPX,Nucor Corp.,Materials
+NVDA,SPX,Nvidia Corporation,Information Technology
+KORS,SPX,Michael Kors,Consumer Discretionary
+ORLY,SPX,O'Reilly Automotive,Consumer Discretionary
+OXY,SPX,Occidental Petroleum,Energy
+OMC,SPX,Omnicom Group,Consumer Discretionary
+OKE,SPX,ONEOK,Energy
+ORCL,SPX,Oracle Corp.,Information Technology
+OI,SPX,Owens-Illinois Inc,Materials
+PCG,SPX,P G & E Corp.,Utilities
+PCAR,SPX,PACCAR Inc.,Industrials
+PLL,SPX,Pall Corp.,Industrials
+PH,SPX,Parker-Hannifin,Industrials
+PDCO,SPX,Patterson Companies,Health Care
+PAYX,SPX,Paychex Inc.,Information Technology
+BTU,SPX,Peabody Energy,Energy
+PNR,SPX,Pentair Ltd.,Industrials
+PBCT,SPX,People's United Bank,Financials
+POM,SPX,Pepco Holdings Inc.,Utilities
+PEP,SPX,PepsiCo Inc.,Consumer Staples
+PKI,SPX,PerkinElmer,Health Care
+PRGO,SPX,Perrigo,Health Care
+PETM,SPX,PetSmart,Consumer Discretionary
+PFE,SPX,Pfizer Inc.,Health Care
+PM,SPX,Philip Morris International,Consumer Staples
+PSX,SPX,Phillips 66,Energy
+PNW,SPX,Pinnacle West Capital,Utilities
+PXD,SPX,Pioneer Natural Resources,Energy
+PBI,SPX,Pitney-Bowes,Industrials
+PCL,SPX,Plum Creek Timber Co.,Financials
+PNC,SPX,PNC Financial Services,Financials
+RL,SPX,Polo Ralph Lauren Corp.,Consumer Discretionary
+PPG,SPX,PPG Industries,Materials
+PPL,SPX,PPL Corp.,Utilities
+PX,SPX,Praxair Inc.,Materials
+PCP,SPX,Precision Castparts,Industrials
+PCLN,SPX,Priceline.com Inc,Consumer Discretionary
+PFG,SPX,Principal Financial Group,Financials
+PG,SPX,Procter & Gamble,Consumer Staples
+PGR,SPX,Progressive Corp.,Financials
+PLD,SPX,Prologis,Financials
+PRU,SPX,Prudential Financial,Financials
+PEG,SPX,Public Serv. Enterprise Inc.,Utilities
+PSA,SPX,Public Storage,Financials
+PHM,SPX,Pulte Homes Inc.,Consumer Discretionary
+PVH,SPX,PVH Corp.,Consumer Discretionary
+QEP,SPX,QEP Resources,Energy
+PWR,SPX,Quanta Services Inc.,Industrials
+QCOM,SPX,QUALCOMM Inc.,Information Technology
+DGX,SPX,Quest Diagnostics,Health Care
+RRC,SPX,Range Resources Corp.,Energy
+RTN,SPX,Raytheon Co.,Industrials
+RHT,SPX,Red Hat Inc.,Information Technology
+REGN,SPX,Regeneron,Health Care
+RF,SPX,Regions Financial Corp.,Financials
+RSG,SPX,Republic Services Inc,Industrials
+RAI,SPX,Reynolds American Inc.,Consumer Staples
+RHI,SPX,Robert Half International,Industrials
+ROK,SPX,Rockwell Automation Inc.,Industrials
+COL,SPX,Rockwell Collins,Industrials
+ROP,SPX,Roper Industries,Industrials
+ROST,SPX,Ross Stores,Consumer Discretionary
+RDC,SPX,Rowan Cos.,Energy
+R,SPX,Ryder System,Industrials
+SWY,SPX,Safeway Inc.,Consumer Staples
+CRM,SPX,Salesforce.com,Information Technology
+SNDK,SPX,SanDisk Corporation,Information Technology
+SCG,SPX,SCANA Corp,Utilities
+SLB,SPX,Schlumberger Ltd.,Energy
+SNI,SPX,Scripps Networks Interactive Inc.,Consumer Discretionary
+STX,SPX,Seagate Technology,Information Technology
+SEE,SPX,Sealed Air Corp.(New),Materials
+SRE,SPX,Sempra Energy,Utilities
+SHW,SPX,Sherwin-Williams,Materials
+SIAL,SPX,Sigma-Aldrich,Materials
+SPG,SPX,Simon Property Group Inc,Financials
+SJM,SPX,Smucker (J.M.),Consumer Staples
+SNA,SPX,Snap-On Inc.,Consumer Discretionary
+SO,SPX,Southern Co.,Utilities
+LUV,SPX,Southwest Airlines,Industrials
+SWN,SPX,Southwestern Energy,Energy
+SE,SPX,Spectra Energy Corp.,Energy
+STJ,SPX,St Jude Medical,Health Care
+SWK,SPX,Stanley Black & Decker,Consumer Discretionary
+SPLS,SPX,Staples Inc.,Consumer Discretionary
+SBUX,SPX,Starbucks Corp.,Consumer Discretionary
+HOT,SPX,Starwood Hotels & Resorts,Consumer Discretionary
+STT,SPX,State Street Corp.,Financials
+SRCL,SPX,Stericycle Inc,Industrials
+SYK,SPX,Stryker Corp.,Health Care
+STI,SPX,SunTrust Banks,Financials
+SYMC,SPX,Symantec Corp.,Information Technology
+SYY,SPX,Sysco Corp.,Consumer Staples
+TROW,SPX,T. Rowe Price Group,Financials
+TGT,SPX,Target Corp.,Consumer Discretionary
+TEL,SPX,TE Connectivity Ltd.,Information Technology
+TE,SPX,TECO Energy,Utilities
+THC,SPX,Tenet Healthcare Corp.,Health Care
+TDC,SPX,Teradata Corp.,Information Technology
+TSO,SPX,Tesoro Petroleum Co.,Energy
+TXN,SPX,Texas Instruments,Information Technology
+TXT,SPX,Textron Inc.,Industrials
+HSY,SPX,The Hershey Company,Consumer Staples
+TRV,SPX,The Travelers Companies Inc.,Financials
+TMO,SPX,Thermo Fisher Scientific,Health Care
+TIF,SPX,Tiffany & Co.,Consumer Discretionary
+TWX,SPX,Time Warner Inc.,Consumer Discretionary
+TWC,SPX,Time Warner Cable Inc.,Consumer Discretionary
+TJX,SPX,TJX Companies Inc.,Consumer Discretionary
+TMK,SPX,Torchmark Corp.,Financials
+TSS,SPX,Total System Services,Information Technology
+TSCO,SPX,Tractor Supply Company,Consumer Discretionary
+RIG,SPX,Transocean,Energy
+TRIP,SPX,TripAdvisor,Consumer Discretionary
+FOXA,SPX,Twenty-First Century Fox,Consumer Discretionary
+TSN,SPX,Tyson Foods,Consumer Staples
+TYC,SPX,Tyco International,Industrials
+USB,SPX,U.S. Bancorp,Financials
+UA,SPX,Under Armour,Consumer Discretionary
+UNP,SPX,Union Pacific,Industrials
+UNH,SPX,United Health Group Inc.,Health Care
+UPS,SPX,United Parcel Service,Industrials
+MLM,SPX,Martin Marietta Materials,Materials
+UTX,SPX,United Technologies,Industrials
+UNM,SPX,Unum Group,Financials
+URBN,SPX,Urban Outfitters,Consumer Discretionary
+VFC,SPX,V.F. Corp.,Consumer Discretionary
+VLO,SPX,Valero Energy,Energy
+VAR,SPX,Varian Medical Systems,Health Care
+VTR,SPX,Ventas Inc,Financials
+VRSN,SPX,Verisign Inc.,Information Technology
+VZ,SPX,Verizon Communications,Telecommunications Services
+VRTX,SPX,Vertex Pharmaceuticals Inc,Health Care
+VIAB,SPX,Viacom Inc.,Consumer Discretionary
+V,SPX,Visa Inc.,Information Technology
+VNO,SPX,Vornado Realty Trust,Financials
+VMC,SPX,Vulcan Materials,Materials
+WMT,SPX,Wal-Mart Stores,Consumer Staples
+WAG,SPX,Walgreen Co.,Consumer Staples
+DIS,SPX,The Walt Disney Company,Consumer Discretionary
+GHC,SPX,Graham Holdings Company,Consumer Discretionary
+WM,SPX,Waste Management Inc.,Industrials
+WAT,SPX,Waters Corporation,Health Care
+WLP,SPX,WellPoint Inc.,Health Care
+WFC,SPX,Wells Fargo,Financials
+WDC,SPX,Western Digital,Information Technology
+WU,SPX,Western Union Co,Information Technology
+WY,SPX,Weyerhaeuser Corp.,Financials
+WHR,SPX,Whirlpool Corp.,Consumer Discretionary
+WFM,SPX,Whole Foods Market,Consumer Staples
+WMB,SPX,Williams Cos.,Energy
+WIN,SPX,Windstream Communications,Telecommunications Services
+WEC,SPX,Wisconsin Energy Corporation,Utilities
+WYN,SPX,Wyndham Worldwide,Consumer Discretionary
+WYNN,SPX,Wynn Resorts Ltd,Consumer Discretionary
+XEL,SPX,Xcel Energy Inc,Utilities
+XRX,SPX,Xerox Corp.,Information Technology
+XLNX,SPX,Xilinx Inc,Information Technology
+XL,SPX,XL Capital,Financials
+XYL,SPX,Xylem Inc.,Industrials
+YHOO,SPX,Yahoo Inc.,Information Technology
+YUM,SPX,Yum! Brands Inc,Consumer Discretionary
+ZMH,SPX,Zimmer Holdings,Health Care
+ZION,SPX,Zions Bancorp,Financials
+ZTS,SPX,Zoetis,Health Care
+ATVI,NDX,Activision Blizzard,NA
+BIDU,NDX,Baidu,NA
+CHKP,NDX,Check Point Software Technologies Ltd.,NA
+CHTR,NDX,Charter Communications,NA
+CTRX,NDX,Catamaran Corporation,NA
+DISH,NDX,Dish Network Corp.,NA
+EQIX,NDX,Equinix,NA
+HSIC,NDX,Henry Schein,NA
+ILMN,NDX,Illumina Inc.,NA
+LBTYA,NDX,Liberty Global plc,NA
+LINTA,NDX,Liberty Interactive Corporation,NA
+LMCA,NDX,Liberty Media Corporation,NA
+LMCK,NDX,Liberty Media Corporation,NA
+MXIM,NDX,Maxim Integrated Products,NA
+NXPI,NDX,NXP Semiconductors NV,NA
+SBAC,NDX,SBA Communications Corp.,NA
+SIRI,NDX,Sirius XM Holdings Inc.,NA
+TSLA,NDX,Tesla Motors,NA
+VIP,NDX,VimpelCom Ltd.,NA
+VOD,NDX,Vodafone Group Public Limited Company,NA
+VRSK,NDX,Verisk Analytics,NA
+JD,CN,JD.com,NA
+GAME,CN,Shanda Games Ltd. ADS,NA
+CTRP,CN,Ctrip.com International Ltd. ADS,NA
+QIHU,CN,Qihoo 360 Technology Co. Ltd.,NA
+SPY,ETF,SPDR S&P 500,US Equities
+QQQ,ETF,PowerShares QQQ ,US Equities
+DIA,ETF,DJIA,US Equities
+IWM,ETF,Russell 2000 Index Fund,US Equities
+IJH,ETF,Mid Cap,US Equities
+SLY,ETF,Small Cap,US Equities
+SSO,ETF,ProShares 2x S&P500,US Equities
+SDS,ETF,2x Short S&P500 ,US Equities
+SPXL,ETF,Direxion 3x S&P500,US Equities
+SPXU,ETF,3x Short S&P500,US Equities
+VXX,ETF,S&P 500 VIX Short-Term Futures ETN,VIX
+TVIX,ETF,VelocityShares Daily 2x VIX Short-Term ETN,VIX
+XIV,ETF,VelocityShares Daily Inverse VIX Short Term ETN,VIX
+TZA,ETF,Daily Small Cap Bear 3X Shares Fundamentals,US Equities
+VWO,ETF,Vanguard MSCI Emerging Markets ETF,Global Equities
+EEM,ETF,MSCI Emerging Markets Index Fund,Global Equities
+FXI,ETF,FTSE China 25 Index Fund,Global Equities
+EFA,ETF,MSCI EAFE Index Fund,Global Equities
+TLT,ETF,20+ Year T-Bonds,US Bonds
+JNK,ETF,High Yield Bonds,US Bonds
+IPE,ETF,US TIPS,US Bonds
+TBT,ETF,UltraShort Barclays 20+ Year Treasury,US Bonds
+JJM,ETF,Industrial Metals,Commodities
+OIL,ETF,Oil,Commodities
+USO,ETF,United States Oil Fund,Commodities
+BNO,ETF,Brent Oil,Commodities
+GLD,ETF,SPDR Gold Shares,Commodities
+SLV,ETF,Silver Trust ETF,Commodities
+GAZ,ETF,Natural Gas,Commodities
+UNG,ETF,United States Natural Gas Fund,Commodities
+PTM,ETF,Platinum,Commodities
+JJA,ETF,Agricultural Basket,Commodities
+JJC,ETF,Copper,Commodities
+XLF,ETF,Financial Select Sector SPDR,US Sectors
+XLI,ETF,Industrial Select Sector SPDR Fund,US Sectors
+XLE,ETF,Energy Select Sector SPDR Fund,US Sectors
+XLY,ETF,Consumer Discretionary,US Sectors
+XLP,ETF,Consumer Staples,US Sectors
+XLV,ETF,Health Care,US Sectors
+XLB,ETF,Materials,US Sectors
+XLK,ETF,Technology,US Sectors
+XLU,ETF,Utilities,US Sectors
+FAZ,ETF,Direxion Daily Financial Bear 3x Shares,US Sectors
+GDX,ETF,Market Vectors TR Gold Miners ETF,US Sectors
+FAS,ETF,Daily Financial Bull 3X Shares,US Sectors
+XHB,ETF,Homebuilder,US Sectors
+RTL,ETF,US Retail REITs,US Sectors
+REZ,ETF,US Residential REITs,US Sectors
+REM,ETF,US Mortgage REITs,US Sectors
+FNIO,ETF,Industrial Office REITs,US Sectors
+EWA,ETF,Australia,Countries
+EWH,ETF,Hong Kong,Countries
+EWI,ETF,Italy,Countries
+EWJ,ETF,MSCI Japan Index Fund,Countries
+EWM,ETF,Malaysia,Countries
+EWP,ETF,Spain,Countries
+EWS,ETF,Singapore,Countries
+EWU,ETF,UK,Countries
+EWY,ETF,South Korea,Countries
+EWZ,ETF,MSCI Brazil Index Fund ,Countries
+FXB,ETF,GBP,Currencies
+CYB,ETF,CNY,Currencies
+FXE,ETF,EUR,Currencies
+FXY,ETF,JPY,Currencies

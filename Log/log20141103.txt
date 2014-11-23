@@ -1,0 +1,70 @@
+2014-11-03 09:29:01,413 [1] DEBUG QTShell.Log4NetLoggerAdapter Logger was created successfully.
+2014-11-03 09:29:01,440 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating module catalog.
+2014-11-03 09:29:01,448 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring module catalog.
+2014-11-03 09:29:01,472 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating Unity container.
+2014-11-03 09:29:01,520 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring the Unity container.
+2014-11-03 09:29:01,527 [1] DEBUG QTShell.Log4NetLoggerAdapter Adding UnityBootstrapperExtension to container.
+2014-11-03 09:29:01,780 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring ServiceLocator singleton.
+2014-11-03 09:29:01,781 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring region adapters.
+2014-11-03 09:29:01,802 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring default region behaviors.
+2014-11-03 09:29:01,804 [1] DEBUG QTShell.Log4NetLoggerAdapter Registering Framework Exception Types.
+2014-11-03 09:29:01,805 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating the shell.
+2014-11-03 09:29:01,922 [1] DEBUG QTShell.Log4NetLoggerAdapter Setting the RegionManager.
+2014-11-03 09:29:01,943 [1] DEBUG QTShell.Log4NetLoggerAdapter Updating Regions.
+2014-11-03 09:29:02,025 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing the shell.
+2014-11-03 09:29:02,145 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing modules.
+2014-11-03 09:29:02,325 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderAndPositions Loaded
+2014-11-03 09:29:02,562 [1] INFO  QTShell.Log4NetLoggerAdapter Module RealTimeQuoteGrid Loaded
+2014-11-03 09:29:02,676 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleStrategyManager Loaded
+2014-11-03 09:29:02,924 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderTicket Loaded
+2014-11-03 09:29:02,972 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleFramework Loaded
+2014-11-03 09:29:03,000 [1] INFO  QTShell.Log4NetLoggerAdapter No positions provided by google client.
+2014-11-03 09:29:03,002 [1] INFO  QTShell.Log4NetLoggerAdapter Server Version: 0
+2014-11-03 09:29:03,002 [1] INFO  QTShell.Log4NetLoggerAdapter Next Valid Order Id: 1
+2014-11-03 09:29:03,002 [1] INFO  QTShell.Log4NetLoggerAdapter Server Time: 92902
+2014-11-03 09:29:03,002 [1] INFO  QTShell.Log4NetLoggerAdapter Account: GOOGWEB
+2014-11-03 09:29:06,024 [1] INFO  QTShell.Log4NetLoggerAdapter Google Client only support STK and IDX at this time. ESU4 FUT GLOBEX 50 skipped.
+2014-11-03 09:29:06,024 [1] INFO  QTShell.Log4NetLoggerAdapter Google Client only support STK and IDX at this time. ESZ4 FUT GLOBEX 50 skipped.
+2014-11-03 09:29:06,027 [1] DEBUG QTShell.Log4NetLoggerAdapter Bootstrapper sequence completed.
+2014-11-03 09:36:42,350 [7] INFO  QTShell.Log4NetLoggerAdapter GoogleClient error: The remote server returned an error: (500) Internal Server Error.
+2014-11-03 13:42:00,779 [8] INFO  QTShell.Log4NetLoggerAdapter Cross below EMA, sell
+2014-11-03 13:42:00,788 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 1
+2014-11-03 13:42:00,792 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 1 is not found in order table
+2014-11-03 13:42:00,801 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 1, SPY STK SMART
+2014-11-03 13:42:00,830 [1] INFO  QTShell.Log4NetLoggerAdapter SPY STK SMART filled size: -100 after: 1,GOOGWEB,20141103,134200,SPY STK SMART,-100,202.30
+2014-11-03 13:42:00,832 [8] INFO  QTShell.Log4NetLoggerAdapter Cross above EMA, buy
+2014-11-03 13:42:00,833 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 2
+2014-11-03 13:42:00,833 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 2 is not found in order table
+2014-11-03 13:42:00,833 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 2, VXX STK SMART
+2014-11-03 13:42:00,839 [1] INFO  QTShell.Log4NetLoggerAdapter VXX STK SMART filled size: 100 after: 2,GOOGWEB,20141103,134200,VXX STK SMART,100,30.21
+2014-11-03 13:42:00,840 [8] INFO  QTShell.Log4NetLoggerAdapter Cross above EMA, buy
+2014-11-03 13:42:00,840 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 3
+2014-11-03 13:42:00,840 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 3 is not found in order table
+2014-11-03 13:42:00,840 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 3, SDS STK SMART
+2014-11-03 13:42:00,846 [1] INFO  QTShell.Log4NetLoggerAdapter SDS STK SMART filled size: 100 after: 3,GOOGWEB,20141103,134200,SDS STK SMART,100,23.18
+2014-11-03 13:44:01,175 [8] INFO  QTShell.Log4NetLoggerAdapter Counter trend, exit.
+2014-11-03 13:44:01,176 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 4
+2014-11-03 13:44:01,176 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 4 is not found in order table
+2014-11-03 13:44:01,176 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 4, VXX STK SMART
+2014-11-03 13:44:01,186 [1] INFO  QTShell.Log4NetLoggerAdapter VXX STK SMART filled size: -100 after: 4,GOOGWEB,20141103,134401,VXX STK SMART,-100,30.20
+2014-11-03 13:45:00,976 [8] INFO  QTShell.Log4NetLoggerAdapter Counter trend, exit.
+2014-11-03 13:45:00,976 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 5
+2014-11-03 13:45:00,976 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 5 is not found in order table
+2014-11-03 13:45:00,976 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 5, SPY STK SMART
+2014-11-03 13:45:00,984 [1] INFO  QTShell.Log4NetLoggerAdapter SPY STK SMART filled size: 100 after: 5,GOOGWEB,20141103,134500,SPY STK SMART,100,202.33
+2014-11-03 13:45:00,984 [8] INFO  QTShell.Log4NetLoggerAdapter Cross below EMA, sell
+2014-11-03 13:45:00,984 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 6
+2014-11-03 13:45:00,984 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 6 is not found in order table
+2014-11-03 13:45:00,984 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 6, VXX STK SMART
+2014-11-03 13:45:00,986 [8] INFO  QTShell.Log4NetLoggerAdapter Shutting down strategy EMA Simple Crossover
+2014-11-03 13:45:00,987 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 7
+2014-11-03 13:45:00,992 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 7 is not found in order table
+2014-11-03 13:45:00,992 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 7, VXX STK SMART
+2014-11-03 13:45:00,992 [8] INFO  QTShell.Log4NetLoggerAdapter Shutting down strategy EMA Simple Crossover
+2014-11-03 13:45:00,992 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 8
+2014-11-03 13:45:00,999 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 8 is not found in order table
+2014-11-03 13:45:00,999 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 8, SDS STK SMART
+2014-11-03 13:45:00,999 [8] INFO  QTShell.Log4NetLoggerAdapter Shutting down strategy EMA Simple Crossover
+2014-11-03 13:45:01,009 [1] INFO  QTShell.Log4NetLoggerAdapter SDS STK SMART filled size: -100 after: 8,GOOGWEB,20141103,134500,SDS STK SMART,-100,23.18
+2014-11-03 13:45:01,009 [1] INFO  QTShell.Log4NetLoggerAdapter VXX STK SMART filled size: 100 after: 7,GOOGWEB,20141103,134500,VXX STK SMART,100,30.19
+2014-11-03 13:45:01,010 [1] INFO  QTShell.Log4NetLoggerAdapter VXX STK SMART filled size: -100 after: 6,GOOGWEB,20141103,134500,VXX STK SMART,-100,30.19

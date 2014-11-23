@@ -1,0 +1,11 @@
+﻿<Window x:Class="BackTestWindow.UI.StrategySetterWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:xctk="http://schemas.xceed.com/wpf/xaml/toolkit"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="..\..\Resources\mainwindow.ico"
+        Title="Strategy Loader" SizeToContent="WidthAndHeight"  Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}" >
+    <DockPanel LastChildFill="True">
+        <Button DockPanel.Dock="Bottom" Name="btnLoadStrategy" Content="Accept" Click="btnLoadStrategy_Click"></Button>
+        <xctk:PropertyGrid SelectedObject="{Binding}" x:Name="_StrategyPropertyGrid" AutoGenerateProperties="True" Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}"></xctk:PropertyGrid>
+    </DockPanel>
+</Window>

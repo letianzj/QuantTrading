@@ -1,0 +1,11 @@
+﻿<Window x:Class="BackTestWindow.UI.InputBox"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="..\..\Resources\mainwindow.ico"
+        Title="InputBox" SizeToContent="WidthAndHeight" Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}" >
+    <StackPanel>
+        <TextBlock Text="Enter Text:" />
+        <TextBox x:Name="ResponseTextBox" />
+        <Button Content="OK" Click="OKButton_Click" />
+    </StackPanel>
+</Window>

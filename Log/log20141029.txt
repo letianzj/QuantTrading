@@ -1,0 +1,164 @@
+2014-10-29 09:29:02,915 [1] DEBUG QTShell.Log4NetLoggerAdapter Logger was created successfully.
+2014-10-29 09:29:02,944 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating module catalog.
+2014-10-29 09:29:02,946 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring module catalog.
+2014-10-29 09:29:02,956 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating Unity container.
+2014-10-29 09:29:03,001 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring the Unity container.
+2014-10-29 09:29:03,007 [1] DEBUG QTShell.Log4NetLoggerAdapter Adding UnityBootstrapperExtension to container.
+2014-10-29 09:29:03,275 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring ServiceLocator singleton.
+2014-10-29 09:29:03,275 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring region adapters.
+2014-10-29 09:29:03,298 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring default region behaviors.
+2014-10-29 09:29:03,301 [1] DEBUG QTShell.Log4NetLoggerAdapter Registering Framework Exception Types.
+2014-10-29 09:29:03,302 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating the shell.
+2014-10-29 09:29:03,409 [1] DEBUG QTShell.Log4NetLoggerAdapter Setting the RegionManager.
+2014-10-29 09:29:03,425 [1] DEBUG QTShell.Log4NetLoggerAdapter Updating Regions.
+2014-10-29 09:29:03,488 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing the shell.
+2014-10-29 09:29:03,545 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing modules.
+2014-10-29 09:29:03,705 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderAndPositions Loaded
+2014-10-29 09:29:03,865 [1] INFO  QTShell.Log4NetLoggerAdapter Module RealTimeQuoteGrid Loaded
+2014-10-29 09:29:03,928 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleStrategyManager Loaded
+2014-10-29 09:29:04,078 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderTicket Loaded
+2014-10-29 09:29:04,114 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleFramework Loaded
+2014-10-29 09:29:05,237 [1] INFO  QTShell.Log4NetLoggerAdapter No connection could be made because the target machine actively refused it 127.0.0.1:7496
+2014-10-29 09:29:05,239 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:05,241 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:05,243 [1] INFO  QTShell.Log4NetLoggerAdapter Server Version: 0
+2014-10-29 09:29:05,244 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,270 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,271 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,272 [1] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:08,275 [1] DEBUG QTShell.Log4NetLoggerAdapter Bootstrapper sequence completed.
+2014-10-29 09:29:18,287 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:28,287 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:38,288 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:48,289 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:29:58,289 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:30:08,290 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:30:18,290 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:30:28,291 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:30:38,291 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:30:48,292 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:30:58,293 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:31:08,293 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:31:18,294 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:31:28,294 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:31:38,295 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:31:48,295 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:31:58,296 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:32:08,297 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:32:18,297 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:32:28,298 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:32:38,298 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:32:48,299 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:32:58,299 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:33:08,300 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:33:18,301 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:33:28,301 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:33:38,303 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:33:48,306 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:33:58,307 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:34:08,307 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:34:18,308 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:34:28,309 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:34:38,309 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:34:48,310 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:34:58,310 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:35:08,311 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:35:18,311 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:35:28,312 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:35:38,313 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:35:48,313 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:35:58,314 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:36:08,314 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:36:18,315 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:36:28,315 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:36:38,316 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:36:48,317 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:36:58,317 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:37:08,318 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:37:18,318 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:37:28,319 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:37:38,319 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:37:48,320 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:37:58,321 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:38:08,321 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:38:18,322 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:38:28,322 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:38:38,323 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:38:48,323 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:38:58,324 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:39:08,325 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:39:18,325 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:39:28,326 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:39:38,326 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:39:48,327 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:39:58,327 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:40:08,328 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:40:18,329 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:40:28,329 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected
+2014-10-29 09:40:38,330 [4] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 504; Error Message = Not connected

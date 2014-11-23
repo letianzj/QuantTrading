@@ -1,0 +1,42 @@
+2014-11-12 09:29:03,532 [1] DEBUG QTShell.Log4NetLoggerAdapter Logger was created successfully.
+2014-11-12 09:29:03,562 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating module catalog.
+2014-11-12 09:29:03,573 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring module catalog.
+2014-11-12 09:29:03,948 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating Unity container.
+2014-11-12 09:29:04,779 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring the Unity container.
+2014-11-12 09:29:04,948 [1] DEBUG QTShell.Log4NetLoggerAdapter Adding UnityBootstrapperExtension to container.
+2014-11-12 09:29:06,024 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring ServiceLocator singleton.
+2014-11-12 09:29:06,025 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring region adapters.
+2014-11-12 09:29:06,083 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring default region behaviors.
+2014-11-12 09:29:06,085 [1] DEBUG QTShell.Log4NetLoggerAdapter Registering Framework Exception Types.
+2014-11-12 09:29:06,086 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating the shell.
+2014-11-12 09:29:06,818 [1] DEBUG QTShell.Log4NetLoggerAdapter Setting the RegionManager.
+2014-11-12 09:29:06,840 [1] DEBUG QTShell.Log4NetLoggerAdapter Updating Regions.
+2014-11-12 09:29:07,027 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing the shell.
+2014-11-12 09:29:07,638 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing modules.
+2014-11-12 09:29:08,994 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderAndPositions Loaded
+2014-11-12 09:29:09,545 [1] INFO  QTShell.Log4NetLoggerAdapter Module RealTimeQuoteGrid Loaded
+2014-11-12 09:29:10,099 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleStrategyManager Loaded
+2014-11-12 09:29:10,714 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderTicket Loaded
+2014-11-12 09:29:10,824 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleFramework Loaded
+2014-11-12 09:29:11,232 [7] INFO  QTShell.Log4NetLoggerAdapter Account: DU206863
+2014-11-12 09:29:11,233 [7] INFO  QTShell.Log4NetLoggerAdapter Next Valid Order Id: 33
+2014-11-12 09:29:11,235 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfuture
+2014-11-12 09:29:11,235 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm
+2014-11-12 09:29:11,236 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:ushmds
+2014-11-12 09:29:11,282 [1] INFO  QTShell.Log4NetLoggerAdapter Server Version: 71
+2014-11-12 09:29:14,442 [1] DEBUG QTShell.Log4NetLoggerAdapter Bootstrapper sequence completed.
+2014-11-12 09:29:14,680 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 49; Error code = 200; Error Message = No security definition has been found for the request
+2014-11-12 09:29:14,680 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 52; Error code = 200; Error Message = No security definition has been found for the request
+2014-11-12 09:29:14,682 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 67; Error code = 200; Error Message = No security definition has been found for the request
+2014-11-12 09:29:15,080 [8] INFO  QTShell.Log4NetLoggerAdapter Shutting down ESZ4 FUT GLOBEX 50
+2014-11-12 09:29:15,086 [8] INFO  QTShell.Log4NetLoggerAdapter Ignoring order from disabled/inactive strategy: ClassicStrategies.EMASimple order: 20141112,92915,0,,ESZ4 FUT GLOBEX 50,-2,0,0,0,USD,DAY
+2014-11-12 09:37:34,564 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 49; Error code = 200; Error Message = No security definition has been found for the request
+2014-11-12 09:38:04,560 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 52; Error code = 200; Error Message = No security definition has been found for the request
+2014-11-12 09:40:34,989 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:ilhmds
+2014-11-12 09:40:35,026 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 67; Error code = 162; Error Message = Historical Market Data Service error message:HMDS query returned no data: ESU4@GLOBEX Trades
+2014-11-12 13:10:40,544 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2014-11-12 13:10:43,356 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-12 13:10:43,356 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-12 13:10:44,288 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2014-11-12 13:10:44,369 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-12 13:10:44,369 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us

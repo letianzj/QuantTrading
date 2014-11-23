@@ -1,0 +1,23 @@
+﻿<UserControl x:Class="Modules.OrderAndPositions.OrderAndPositionView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d">
+    <Grid>
+        <TabControl x:Name="OrderAndPositionTabControl" SelectedIndex="{Binding Path=TabControlSelectedIndex, Mode=TwoWay}">
+            <TabItem Header="Orders">
+                <DataGrid Name="dgOrder"  ItemsSource="{Binding Path=OrderTable}" SelectedIndex="{Binding SelectedOrderIndex}" SelectionUnit="FullRow" HorizontalAlignment="Stretch" CanUserAddRows="False" CanUserReorderColumns="false" AutoGenerateColumns="True" CanUserSortColumns="False"></DataGrid>
+            </TabItem>
+            <TabItem Header="Fills">
+                <DataGrid Name="dgFill"  ItemsSource="{Binding Path=FillTable}" SelectionUnit="FullRow" HorizontalAlignment="Stretch" CanUserAddRows="False" CanUserReorderColumns="false" AutoGenerateColumns="True" CanUserSortColumns="False"></DataGrid>
+            </TabItem>
+            <TabItem Header="Positions">
+                <DataGrid Name="dgPosition"  ItemsSource="{Binding Path=PositionTable}" SelectionUnit="FullRow" HorizontalAlignment="Stretch" CanUserAddRows="False" CanUserReorderColumns="false" AutoGenerateColumns="True" CanUserSortColumns="False"></DataGrid>
+            </TabItem>
+            <TabItem Header="Result">
+                <DataGrid Name="dgResult"  ItemsSource="{Binding Path=ResultTable}" SelectionUnit="FullRow" HorizontalAlignment="Stretch" CanUserAddRows="False" CanUserReorderColumns="false" AutoGenerateColumns="True" CanUserSortColumns="False"></DataGrid>
+            </TabItem>
+        </TabControl>
+    </Grid>
+</UserControl>

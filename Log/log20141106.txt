@@ -1,0 +1,134 @@
+2014-11-06 09:29:06,006 [1] DEBUG QTShell.Log4NetLoggerAdapter Logger was created successfully.
+2014-11-06 09:29:06,036 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating module catalog.
+2014-11-06 09:29:06,170 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring module catalog.
+2014-11-06 09:29:06,391 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating Unity container.
+2014-11-06 09:29:07,249 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring the Unity container.
+2014-11-06 09:29:07,266 [1] DEBUG QTShell.Log4NetLoggerAdapter Adding UnityBootstrapperExtension to container.
+2014-11-06 09:29:08,316 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring ServiceLocator singleton.
+2014-11-06 09:29:08,317 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring region adapters.
+2014-11-06 09:29:08,462 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring default region behaviors.
+2014-11-06 09:29:08,468 [1] DEBUG QTShell.Log4NetLoggerAdapter Registering Framework Exception Types.
+2014-11-06 09:29:08,469 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating the shell.
+2014-11-06 09:29:09,691 [1] DEBUG QTShell.Log4NetLoggerAdapter Setting the RegionManager.
+2014-11-06 09:29:09,697 [1] DEBUG QTShell.Log4NetLoggerAdapter Updating Regions.
+2014-11-06 09:29:09,974 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing the shell.
+2014-11-06 09:29:10,813 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing modules.
+2014-11-06 09:29:13,100 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderAndPositions Loaded
+2014-11-06 09:29:13,684 [1] INFO  QTShell.Log4NetLoggerAdapter Module RealTimeQuoteGrid Loaded
+2014-11-06 09:29:14,002 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleStrategyManager Loaded
+2014-11-06 09:29:14,735 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderTicket Loaded
+2014-11-06 09:29:14,812 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleFramework Loaded
+2014-11-06 09:29:15,303 [1] INFO  QTShell.Log4NetLoggerAdapter Server Version: 71
+2014-11-06 09:29:15,303 [7] INFO  QTShell.Log4NetLoggerAdapter Account: DU206863
+2014-11-06 09:29:15,305 [7] INFO  QTShell.Log4NetLoggerAdapter Next Valid Order Id: 15
+2014-11-06 09:29:15,316 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm
+2014-11-06 09:29:15,316 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:ushmds
+2014-11-06 09:29:18,421 [1] DEBUG QTShell.Log4NetLoggerAdapter Bootstrapper sequence completed.
+2014-11-06 09:29:18,753 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 49; Error code = 200; Error Message = No security definition has been found for the request
+2014-11-06 09:29:18,753 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 52; Error code = 200; Error Message = No security definition has been found for the request
+2014-11-06 09:29:18,755 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 67; Error code = 200; Error Message = No security definition has been found for the request
+2014-11-06 09:29:19,402 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfuture
+2014-11-06 09:33:56,819 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2014-11-06 09:34:00,652 [8] INFO  QTShell.Log4NetLoggerAdapter Cross above EMA, buy
+2014-11-06 09:34:00,685 [8] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 93400, EMA:2019.05
+2014-11-06 09:34:00,745 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 15; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-11-06 09:34:00,773 [8] INFO  QTShell.Log4NetLoggerAdapter Cross above EMA, buy
+2014-11-06 09:34:00,774 [8] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 93400, EMA:202.45
+2014-11-06 09:34:00,808 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 16; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-11-06 09:34:00,820 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 15; Error code = 451; Error Message = The following order "ID:15" value estimate of 202,050 USD exceeds 
+the Total Value Limit of 100,000 USD.
+Restriction is specified in Precautionary Settings of Global Configuration/Presets.
+2014-11-06 09:34:00,946 [7] INFO  QTShell.Log4NetLoggerAdapter order accepted: 16
+2014-11-06 09:34:00,968 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 16 is not found in order table
+2014-11-06 09:34:00,977 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 16, SPY STK SMART
+2014-11-06 09:34:01,034 [1] INFO  QTShell.Log4NetLoggerAdapter SPY STK SMART filled size: 100 after: 16,DU206863,20141106,93403,SPY STK SMART,100,202.61
+2014-11-06 09:34:01,369 [8] INFO  QTShell.Log4NetLoggerAdapter Cross below EMA, sell
+2014-11-06 09:34:01,369 [8] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 93401, EMA:30.04
+2014-11-06 09:34:01,399 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 17; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-11-06 09:34:01,418 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 17; Error code = 404; Error Message = Order held while securities are located.
+2014-11-06 09:34:01,418 [7] INFO  QTShell.Log4NetLoggerAdapter order accepted: 17
+2014-11-06 09:34:01,419 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 17 is not found in order table
+2014-11-06 09:34:01,419 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 17, VXX STK SMART
+2014-11-06 09:34:01,495 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 09:34:01,498 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 09:34:01,660 [8] INFO  QTShell.Log4NetLoggerAdapter Cross below EMA, sell
+2014-11-06 09:34:01,660 [8] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 93401, EMA:23.15
+2014-11-06 09:34:01,681 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 18; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-11-06 09:34:01,713 [7] INFO  QTShell.Log4NetLoggerAdapter order accepted: 18
+2014-11-06 09:34:01,720 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 18 is not found in order table
+2014-11-06 09:34:01,721 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 18, SDS STK SMART
+2014-11-06 09:34:01,742 [1] INFO  QTShell.Log4NetLoggerAdapter SDS STK SMART filled size: -100 after: 18,DU206863,20141106,93404,SDS STK SMART,-100,23.10
+2014-11-06 09:34:10,873 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2014-11-06 09:37:38,490 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 49; Error code = 200; Error Message = No security definition has been found for the request
+2014-11-06 09:38:00,377 [8] INFO  QTShell.Log4NetLoggerAdapter Counter trend, exit.
+2014-11-06 09:38:00,378 [8] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 93800, EMA:202.49
+2014-11-06 09:38:00,402 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 19; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-11-06 09:38:00,441 [7] INFO  QTShell.Log4NetLoggerAdapter order accepted: 19
+2014-11-06 09:38:00,442 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 19 is not found in order table
+2014-11-06 09:38:00,442 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 19, SPY STK SMART
+2014-11-06 09:38:00,453 [1] INFO  QTShell.Log4NetLoggerAdapter SPY STK SMART filled size: -100 after: 19,DU206863,20141106,93802,SPY STK SMART,-100,202.41
+2014-11-06 09:38:03,979 [8] INFO  QTShell.Log4NetLoggerAdapter Counter trend, exit.
+2014-11-06 09:38:03,980 [8] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 93803, EMA:23.14
+2014-11-06 09:38:04,004 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 20; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-11-06 09:38:04,029 [7] INFO  QTShell.Log4NetLoggerAdapter order accepted: 20
+2014-11-06 09:38:04,029 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 20 is not found in order table
+2014-11-06 09:38:04,029 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 20, SDS STK SMART
+2014-11-06 09:38:04,226 [1] INFO  QTShell.Log4NetLoggerAdapter SDS STK SMART filled size: 100 after: 20,DU206863,20141106,93806,SDS STK SMART,100,23.16
+2014-11-06 09:38:08,489 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 52; Error code = 200; Error Message = No security definition has been found for the request
+2014-11-06 09:39:00,075 [8] INFO  QTShell.Log4NetLoggerAdapter Cross below EMA, sell
+2014-11-06 09:39:00,075 [8] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 93900, EMA:202.46
+2014-11-06 09:39:00,096 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 21; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-11-06 09:39:00,131 [7] INFO  QTShell.Log4NetLoggerAdapter order accepted: 21
+2014-11-06 09:39:00,131 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 21 is not found in order table
+2014-11-06 09:39:00,131 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 21, SPY STK SMART
+2014-11-06 09:39:00,180 [1] INFO  QTShell.Log4NetLoggerAdapter SPY STK SMART filled size: -100 after: 21,DU206863,20141106,93902,SPY STK SMART,-100,202.26
+2014-11-06 09:39:03,075 [8] INFO  QTShell.Log4NetLoggerAdapter Cross above EMA, buy
+2014-11-06 09:39:03,075 [8] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 93903, EMA:23.14
+2014-11-06 09:39:03,095 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 22; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-11-06 09:39:03,126 [7] INFO  QTShell.Log4NetLoggerAdapter order accepted: 22
+2014-11-06 09:39:03,126 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 22 is not found in order table
+2014-11-06 09:39:03,126 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 22, SDS STK SMART
+2014-11-06 09:39:03,141 [7] INFO  QTShell.Log4NetLoggerAdapter Shutting down strategy EMA Simple Crossover
+2014-11-06 09:39:03,146 [1] INFO  QTShell.Log4NetLoggerAdapter SDS STK SMART filled size: 100 after: 22,DU206863,20141106,93905,SDS STK SMART,100,23.19
+2014-11-06 09:39:03,179 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 23; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-11-06 09:39:03,195 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 24; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-11-06 09:39:03,216 [7] INFO  QTShell.Log4NetLoggerAdapter order accepted: 23
+2014-11-06 09:39:03,216 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 23 is not found in order table
+2014-11-06 09:39:03,216 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 23, SPY STK SMART
+2014-11-06 09:39:03,229 [1] INFO  QTShell.Log4NetLoggerAdapter SPY STK SMART filled size: 100 after: 23,DU206863,20141106,93905,SPY STK SMART,100,202.26
+2014-11-06 09:39:03,416 [7] INFO  QTShell.Log4NetLoggerAdapter order accepted: 24
+2014-11-06 09:39:03,416 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 24 is not found in order table
+2014-11-06 09:39:03,416 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 24, SDS STK SMART
+2014-11-06 09:39:03,464 [1] INFO  QTShell.Log4NetLoggerAdapter SDS STK SMART filled size: -100 after: 24,DU206863,20141106,93905,SDS STK SMART,-100,23.18
+2014-11-06 09:39:10,848 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 09:39:10,848 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 09:40:39,103 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:ilhmds
+2014-11-06 09:40:39,142 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = 67; Error code = 162; Error Message = Historical Market Data Service error message:HMDS query returned no data: ESU4@GLOBEX Trades
+2014-11-06 09:47:30,064 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2014-11-06 09:47:31,489 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 09:47:31,490 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 10:33:07,957 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2014-11-06 10:48:56,597 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 10:48:56,597 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 10:48:56,939 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2014-11-06 10:48:57,583 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 10:48:57,583 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 10:49:36,560 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2014-11-06 10:49:39,666 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 10:49:39,666 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 10:49:54,366 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2014-11-06 10:50:06,065 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 10:50:06,065 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 11:06:25,019 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2014-11-06 11:07:12,992 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 11:07:12,992 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 11:07:13,853 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2014-11-06 11:07:13,996 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 11:07:13,997 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 11:13:50,155 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2014-11-06 11:13:50,921 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 11:13:50,921 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 11:13:51,853 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2014-11-06 11:13:51,922 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 11:13:51,923 [7] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2014-11-06 12:00:04,966 [1] INFO  QTShell.Log4NetLoggerAdapter VXX STK SMART filled size: -100 after: 17,DU206863,20141106,120007,VXX STK SMART,-100,30.12

@@ -1,0 +1,25 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="ButtonStyles.xaml"/>
+        <ResourceDictionary Source="WindowStyles.xaml"/>
+        <ResourceDictionary Source="TabControlStyles.xaml"/>
+        <ResourceDictionary Source="MenuStyles.xaml"/>
+        <ResourceDictionary Source="ListBoxStyles.xaml"/>
+        <ResourceDictionary Source="TextBoxStyles.xaml"/>
+        <ResourceDictionary Source="ScrollBarStyles.xaml"/>
+        <ResourceDictionary Source="DataGridStyles.xaml"/>
+        <ResourceDictionary Source="ComboBoxStyles.xaml"/>
+        <ResourceDictionary Source="GroupBoxStyles.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    <Style TargetType="Button" BasedOn="{StaticResource StandardButton}"/>
+    <Style TargetType="Window" BasedOn="{StaticResource StandardWindow}"/>
+    <Style TargetType="TabControl" BasedOn="{StaticResource StandardTabControl}"/>
+    <Style TargetType="Menu" BasedOn="{StaticResource StandardMenu}"/>
+    <Style TargetType="ListBox" BasedOn="{StaticResource StandardListBox}"/>
+    <Style TargetType="ScrollBar" BasedOn="{StaticResource StandardScrollBar}"/>
+    <Style TargetType="TextBox" BasedOn="{StaticResource StandardTextBox}"/>
+    <Style TargetType="DataGrid" BasedOn="{StaticResource StandardDataGrid}"/>
+    <Style TargetType="ComboBox" BasedOn="{StaticResource StandardComboBox}"/>
+    <Style TargetType="GroupBox" BasedOn="{StaticResource StandardGroupBox}"/>
+</ResourceDictionary>

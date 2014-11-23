@@ -1,0 +1,5 @@
+C:\QuantTrading\Strategies\Release\MyStrategies.dll
+C:\QuantTrading\Strategies\Release\MyStrategies.pdb
+C:\QuantTrading\Source\TradingStrategies\MyStrategies\obj\x64\Release\MyStrategies.csprojResolveAssemblyReference.cache
+C:\QuantTrading\Source\TradingStrategies\MyStrategies\obj\x64\Release\MyStrategies.dll
+C:\QuantTrading\Source\TradingStrategies\MyStrategies\obj\x64\Release\MyStrategies.pdb

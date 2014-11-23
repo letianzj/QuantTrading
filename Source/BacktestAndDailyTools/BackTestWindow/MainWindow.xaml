@@ -1,0 +1,109 @@
+﻿<Window x:Class="BackTestWindow.BacktestWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon=".\Resources\Laboratory.ico"
+        Title="BacktestWindow" Height="400" Width="1000" Background="{StaticResource LightBackground}">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="Auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <Menu IsMainMenu="True">
+                <MenuItem Header="Load Strategy" Command="{Binding LoadStrategyDLLCmd}"></MenuItem>
+                <MenuItem Header="Load Data" Command="{Binding LoadTickDataCmd}"></MenuItem>
+                <MenuItem Header="Restart Test" Command="{Binding ResetStrategyCmd}"></MenuItem>
+                <Separator></Separator>
+                <MenuItem Header="Request Historical Data" Command="{Binding ReqHistDataCmd}"></MenuItem>
+                <MenuItem Header="Convert Historical Data" Command="{Binding ConvertHistDataCmd}"></MenuItem>
+                <MenuItem Header="Plot Historical Data" Command="{Binding PlotHistDataCmd}"></MenuItem>
+                <Separator></Separator>
+            </Menu>
+        </Grid>
+        <Grid Grid.Row="1">
+            <StackPanel Orientation="Horizontal">
+                <Label Content="Duration:" MinWidth="60" Foreground="{StaticResource Foreground}"></Label>
+                <Button Content="1s" MinWidth="50" Click="onesec_Click"></Button>
+                <Button Content="1m" MinWidth="50" Click="onemin_Click"></Button>
+                <Button Content="5m" MinWidth="50" Click="fivemin_Click"></Button>
+                <Button Content="10m" MinWidth="50" Click="tenmin_Click"></Button>
+                <Button Content="30m" MinWidth="50" Click="thirtymin_Click"></Button>
+                <Button Content="1h" MinWidth="50" Click="onehour_Click"></Button>
+                <Button Content="End" MinWidth="50" Click="ptend_Click"></Button>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="2">
+            <TabControl>
+                <TabItem Header="Messages">
+                    <ListBox Name="Listbox1" ItemsSource="{Binding Path=MessageList}"></ListBox>
+                </TabItem>
+                <TabItem Header="Ticks">
+                    <DataGrid Name="dgTick"  ItemsSource="{Binding Path=TickTable}" CanUserAddRows="False" HorizontalAlignment="Stretch"></DataGrid>
+                </TabItem>
+                <TabItem Header="Indicators">
+                    <DataGrid Name="dgIndicator" ItemsSource="{Binding Path=IndicatorTable}" CanUserAddRows="False" HorizontalAlignment="Stretch"></DataGrid>
+                </TabItem>
+                <TabItem Header="Position">
+                    <DataGrid Name="dgPosition" ItemsSource="{Binding Path=PositionTable}" CanUserAddRows="False" HorizontalAlignment="Stretch"></DataGrid>
+                </TabItem>
+                <TabItem Header="Orders">
+                    <DataGrid Name="dgOrder" ItemsSource="{Binding Path=OrderTable}" CanUserAddRows="False" HorizontalAlignment="Stretch"></DataGrid>
+                </TabItem>
+                <TabItem Header="Fills">
+                    <DataGrid Name="dgFill" ItemsSource="{Binding Path=FillTable}" CanUserAddRows="False" HorizontalAlignment="Stretch"></DataGrid>
+                </TabItem>
+                <TabItem Header="Results">
+                    <DataGrid Name="dgResult" ItemsSource="{Binding Path=ResultTable}" CanUserAddRows="False" HorizontalAlignment="Stretch"></DataGrid>
+                </TabItem>
+                <TabItem Header="Optimize">
+                    <Grid>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="401*"/>
+                            <ColumnDefinition Width="381*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="Auto"></RowDefinition>
+                            <RowDefinition Height="*"></RowDefinition>
+                        </Grid.RowDefinitions>
+                        <Grid Grid.Row="0" Grid.ColumnSpan="2">
+                            <StackPanel Orientation="Horizontal">
+                                <Label Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}">Optimize On Parameter</Label>
+                                <ComboBox Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}" x:Name="cbOptimVariable" ItemsSource="{Binding Path=OptimVariables}" SelectedItem="{Binding Path=SelectedVariable}"></ComboBox>
+                                <Label Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}">Starting at:</Label>
+                                <TextBox x:Name="tbStartAt" Text="{Binding Path=StartAt}" MinWidth="50"></TextBox>
+                                <Label Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}">Finishing at:</Label>
+                                <TextBox x:Name="tbFinishat" Text="{Binding Path=FinishAt }" MinWidth="50"></TextBox>
+                                <Label Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}">Step size:</Label>
+                                <TextBox x:Name="tbStepSize" Text="{Binding Path=StepSize}" MinWidth="50"></TextBox>
+                                <Label Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}">Ojective:</Label>
+                                <ComboBox x:Name="cbOptimObj" ItemsSource="{Binding Path=OptimObjs}" SelectedItem="{Binding Path= SelectedObj}"></ComboBox>
+                                <CheckBox Content="minimize" Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}"></CheckBox>
+                                <Button Content="Start" Command="{Binding StartOptimizationCmd}" MinWidth="80"></Button>
+                            </StackPanel>
+                        </Grid>
+                        <Grid Grid.Row="1" Grid.ColumnSpan="2">
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="auto"></ColumnDefinition>
+                                <ColumnDefinition Width="auto"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <ListBox Grid.Column="0" HorizontalAlignment="Left" ItemsSource="{Binding Path=OptimumResultsList}" SelectedIndex="{Binding SelectedOptimumResult}"></ListBox>
+                            <GridSplitter HorizontalAlignment="Right" VerticalAlignment="Stretch" Grid.Column="1" ResizeBehavior="PreviousAndNext" Width="5" Background="#FFBCBCBC"/>
+                            <DataGrid Grid.Column="2" Name="dgOptimum" ItemsSource="{Binding Path=OptimumResultsTable}" CanUserAddRows="False" HorizontalAlignment="Stretch"></DataGrid>
+                        </Grid>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Grid>
+        <Grid Grid.Row="3">
+            <DockPanel LastChildFill="True">
+                <Label Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}" Content="{Binding Path=TickFileStatus}" DockPanel.Dock="Right" Width="Auto"></Label>
+                <Label Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}" Content="{Binding Path=DLLStatus}" DockPanel.Dock="Right" Width="Auto"></Label>
+                <Label Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}" Content="{Binding Path=MainStatus}"  Width="Auto"></Label>
+            </DockPanel>
+
+        </Grid>
+    </Grid>
+</Window>

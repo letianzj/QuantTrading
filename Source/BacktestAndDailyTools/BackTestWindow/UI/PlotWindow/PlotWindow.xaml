@@ -1,0 +1,35 @@
+﻿<Window x:Class="BackTestWindow.UI.PlotWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:oxy="clr-namespace:OxyPlot.Wpf;assembly=OxyPlot.Wpf"
+        Icon="..\..\Resources\mainwindow.ico"
+        Title="{Binding Path=Symbol}" Height="350" Width="800"  Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="auto"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="0">
+            <StackPanel Orientation="Horizontal">
+                <Label  Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}" Content="Symbol"></Label>
+                <TextBox Width="150" Text="{Binding Path=Symbol}"></TextBox>
+                <Label  Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}" Content="From"></Label>
+                <TextBox Width="100" Text="{Binding Path=FromDate}"></TextBox>
+                <Label  Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}" Content="To"></Label>
+                <TextBox Width="100" Text="{Binding Path=ToDate}"></TextBox>
+                <Button Content="Load" Command="{Binding LoadPlotCmd}" Width="80"></Button>
+            </StackPanel>
+        </Grid>
+        <Grid Grid.Row="1">
+            <oxy:PlotView x:Name="PlotArea" Model="{Binding MyPlot}"  Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}"></oxy:PlotView>
+        </Grid>
+        <Grid Grid.Row="2">
+            <StatusBar  Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}" >
+                <StatusBarItem>
+                    <TextBlock Text="Statistical Software R and its package quantmod are required. RStudio is recommended."></TextBlock>
+                </StatusBarItem>
+            </StatusBar>
+        </Grid>
+    </Grid>
+</Window>

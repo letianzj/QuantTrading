@@ -1,0 +1,44 @@
+﻿<Window x:Class="QTShell.Shell"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:prism="http://www.codeplex.com/prism"
+        Icon=".\Resources\mainwindow.ico"
+        Title="QuanTrading MainWindow" Height="700" Width="1050" WindowState="Maximized">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="80*"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="20*"/>
+        </Grid.ColumnDefinitions>        
+        <!-- Left Side -->
+        <Grid Grid.Column="0">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="40*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="30*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="30*"/>
+            </Grid.RowDefinitions>
+            <ContentControl Grid.Row="0" x:Name="QuoteRegion" prism:RegionManager.RegionName="QuoteRegion"></ContentControl>
+            <GridSplitter Grid.Row="1" HorizontalAlignment="Stretch" Height="5" Background="#FFBCBCBC"></GridSplitter>
+            <ContentControl Grid.Row="2" x:Name="PlotRegion" prism:RegionManager.RegionName="PlotRegion"></ContentControl>
+            <GridSplitter Grid.Row="3" HorizontalAlignment="Stretch" Height="5" Background="#FFBCBCBC"></GridSplitter>
+            <ContentControl Grid.Row="4" x:Name="InfoRegion" prism:RegionManager.RegionName="InfoRegion"></ContentControl>
+        </Grid>
+
+        <GridSplitter Grid.Column="1" HorizontalAlignment="Right" VerticalAlignment="Stretch" ResizeBehavior="PreviousAndNext" Width="5" Background="#FFBCBCBC"/>
+        
+        <!-- Right Side -->
+        <Grid Grid.Column="2">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="50*"/>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="50*"/>
+            </Grid.RowDefinitions>
+            <ContentControl Grid.Row="0" x:Name="StrategyRegion" prism:RegionManager.RegionName="StrategyRegion"></ContentControl>
+            <GridSplitter Grid.Row="1" HorizontalAlignment="Stretch" Height="5" Background="#FFBCBCBC"></GridSplitter>
+            <ContentControl Grid.Row="2" x:Name="OrderRegion" prism:RegionManager.RegionName="OrderRegion"></ContentControl>
+        </Grid>
+
+    </Grid>
+</Window>

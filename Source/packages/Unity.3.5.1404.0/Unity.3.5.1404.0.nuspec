@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>Unity</id>
+    <version>3.5.1404.0</version>
+    <title>Unity</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>http://unity.codeplex.com/</projectUrl>
+    <iconUrl>http://nuget.org/Media/Default/Packages/Unity/2.0/entlib_new_icon_100x100.png</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>The Unity Application Block (Unity) is a lightweight extensible dependency injection container with support for constructor, property, and method call injection. It facilitates loosely-coupled design. Declarative configuration and registration by convention are supported on selected platforms.</description>
+    <summary>The Unity Application Block (Unity) is a lightweight extensible dependency injection container with support for constructor, property, and method call injection.</summary>
+    <releaseNotes />
+    <copyright>© Microsoft Corporation. All rights reserved.</copyright>
+    <language />
+    <tags>Unity Unity3 Unity35 EntLib EntLib6 IoC DI container dependency injection inversion control LOB WinRT Win8 Windows8 NetCore WindowsStoreApps WindowsStore WindowsPhone WindowsPhone8 wp8 Azure Xamarin MonoTouch MonoAndroid OSS</tags>
+    <dependencies>
+      <group targetFramework="Windows8.0">
+        <dependency id="CommonServiceLocator" version="1.2.0" />
+      </group>
+      <group targetFramework="MonoAndroid0.0">
+        <dependency id="CommonServiceLocator" version="1.2.0" />
+      </group>
+    </dependencies>
+  </metadata>
+</package>

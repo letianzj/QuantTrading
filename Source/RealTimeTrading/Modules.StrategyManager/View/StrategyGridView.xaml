@@ -1,0 +1,22 @@
+﻿<UserControl x:Class="Modules.StrategyManager.StrategyGridView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             mc:Ignorable="d">
+    <Grid>
+        <DataGrid Name="dgStrategies" ItemsSource="{Binding Path=StrategyItemList}" AutoGenerateColumns="False" CanUserAddRows="False" CanUserReorderColumns="false" CanUserSortColumns="False" HorizontalAlignment="Stretch">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="SID" Binding="{Binding Path=SID}"></DataGridTextColumn>
+                <DataGridTextColumn Header="Name" Binding="{Binding Path=SName}"></DataGridTextColumn>
+                <DataGridCheckBoxColumn Binding="{Binding Path=isSActive, Mode=TwoWay, UpdateSourceTrigger=PropertyChanged}">
+                    <DataGridCheckBoxColumn.Header>
+                        <DockPanel>
+                            <CheckBox Content="Is Active"/>
+                        </DockPanel>
+                    </DataGridCheckBoxColumn.Header>
+                </DataGridCheckBoxColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

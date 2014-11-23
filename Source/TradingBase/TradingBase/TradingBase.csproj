@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{3643A69A-080F-473C-B10C-2E22D42BF018}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>TradingBase</RootNamespace>
+    <AssemblyName>TradingBase</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseIntermediateOutputPath>..\..\..\Programs\obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>..\..\..\Programs\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>.\..\..\Programs\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Programs\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\..\..\Programs\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Newtonsoft.Json.6.0.5\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account.cs" />
+    <Compile Include="Backtest\BacktestEngine.cs" />
+    <Compile Include="Backtest\Broker.cs" />
+    <Compile Include="Backtest\HistSim.cs" />
+    <Compile Include="Backtest\MultiSim.cs" />
+    <Compile Include="Backtest\OptimizeEngine.cs" />
+    <Compile Include="Backtest\SingleSim.cs" />
+    <Compile Include="Bar\Bar.cs" />
+    <Compile Include="Bar\BarIntervalData.cs" />
+    <Compile Include="Bar\BarList.cs" />
+    <Compile Include="Bar\BarListTracker.cs" />
+    <Compile Include="Bar\BarRequest.cs" />
+    <Compile Include="Bar\BarTimeIntervalData.cs" />
+    <Compile Include="Brokers\GoogleClient.cs" />
+    <Compile Include="Brokers\IBClient.cs" />
+    <Compile Include="Brokers\IClient.cs" />
+    <Compile Include="Enums\BarInterval.cs" />
+    <Compile Include="Enums\CurrencyType.cs" />
+    <Compile Include="Order\Order.cs" />
+    <Compile Include="Order\OrderBook.cs" />
+    <Compile Include="Order\OrderStatus.cs" />
+    <Compile Include="Order\OrderTracker.cs" />
+    <Compile Include="Order\OrderType.cs" />
+    <Compile Include="Order\TimeInForce.cs" />
+    <Compile Include="PerformanceAnalysis\PerformanceEvaluator.cs" />
+    <Compile Include="PerformanceAnalysis\PerformanceMatrix.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Security\Basket.cs" />
+    <Compile Include="Security\Portfolio.cs" />
+    <Compile Include="Security\Position.cs" />
+    <Compile Include="Security\PositionTracker.cs" />
+    <Compile Include="Security\Security.cs" />
+    <Compile Include="Enums\SecurityType.cs" />
+    <Compile Include="Strategy\StrategyInterface.cs" />
+    <Compile Include="Strategy\StrategyBase.cs" />
+    <Compile Include="Tick\Tick.cs" />
+    <Compile Include="Tick\TickArchiver.cs" />
+    <Compile Include="Tick\TickReader.cs" />
+    <Compile Include="Tick\TickTracker.cs" />
+    <Compile Include="Tick\TickType.cs" />
+    <Compile Include="Tick\TickUtil.cs" />
+    <Compile Include="Tick\TickWatcher.cs" />
+    <Compile Include="Tick\TickWriter.cs" />
+    <Compile Include="Order\Trade.cs" />
+    <Compile Include="Util\Calc.cs" />
+    <Compile Include="Util\ConfigManager.cs" />
+    <Compile Include="Util\ConnectionTracker.cs" />
+    <Compile Include="Util\DefaultSettings.cs" />
+    <Compile Include="Util\EnumDescConverter.cs" />
+    <Compile Include="Util\IConfigManager.cs" />
+    <Compile Include="Util\IdTracker.cs" />
+    <Compile Include="Util\Log.cs" />
+    <Compile Include="Util\OversellProtector.cs" />
+    <Compile Include="Util\Util.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\IBConnection\csharpclient\CSharpAPI.csproj">
+      <Project>{8ede0744-96c2-40b0-a8dc-37df79370203}</Project>
+      <Name>CSharpAPI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

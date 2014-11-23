@@ -1,0 +1,184 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>RDotNet.NativeLibrary</name>
+    </assembly>
+    <members>
+        <member name="T:RDotNet.NativeLibrary.IDynamicLibraryLoader">
+            <summary>
+            An interface definition to hide the platform specific aspects of library loading
+            </summary>
+            <remarks>There are probably projects 'out there' doing this already, but nothing 
+            is obvious from a quick search. Re-consider again if you need more features.</remarks>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.IDynamicLibraryLoader.LoadLibrary(System.String)">
+            <summary>
+            Load a native library (DLL on windows, shared libraries on Linux and MacOS)
+            </summary>
+            <param name="filename">The file name (short file name) of the library to load, e.g. R.dll on Windows</param>
+            <returns></returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.IDynamicLibraryLoader.GetLastError">
+            <summary>
+            Gets the last error message from the native API used to load the library.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.IDynamicLibraryLoader.FreeLibrary(System.IntPtr)">
+            <summary>
+            Unloads a library
+            </summary>
+            <param name="handle">The pointer to the entry point of the library</param>
+            <returns></returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.IDynamicLibraryLoader.GetFunctionAddress(System.IntPtr,System.String)">
+            <summary>
+            Gets a pointer to the address of a native function in the specified loaded library
+            </summary>
+            <param name="hModule">Handle of the module(library)</param>
+            <param name="lpProcName">The name of the function sought</param>
+            <returns>Handle to the native function</returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.UnixLibraryLoader.GetLastError">
+            <summary>
+            Gets the last error. NOTE: according to http://tldp.org/HOWTO/Program-Library-HOWTO/dl-libraries.html, returns NULL if called more than once after dlopen.
+            </summary>
+            <returns>The last error.</returns>
+        </member>
+        <member name="T:RDotNet.NativeLibrary.UnmanagedDll">
+            <summary>
+            A proxy for unmanaged dynamic link library (DLL).
+            </summary>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.UnmanagedDll.#ctor(System.String)">
+            <summary>
+            Creates a proxy for the specified dll.
+            </summary>
+            <param name="dllName">The DLL's name.</param>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.UnmanagedDll.GetFunction``1">
+            <summary>
+            Creates the delegate function for the specified function defined in the DLL.
+            </summary>
+            <typeparam name="TDelegate">The type of delegate. The name of the native function is assumed to be the same as the delegate type name.</typeparam>
+            <returns>The delegate.</returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.UnmanagedDll.GetFunction``1(System.String)">
+            <summary>
+            Creates the delegate function for the specified function defined in the DLL.
+            </summary>
+            <typeparam name="TDelegate">The type of delegate.</typeparam>
+            <param name="entryPoint">The name of the function exported by the DLL</param>
+            <returns>The delegate.</returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.UnmanagedDll.DangerousGetHandle(System.String)">
+            <summary>
+            Gets the handle of the specified entry.
+            </summary>
+            <param name="entryPoint">The name of function.</param>
+            <returns>The handle.</returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.UnmanagedDll.ReleaseHandle">
+            <summary>
+            Frees the native library this objects represents
+            </summary>
+            <returns>The result of the call to FreeLibrary</returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.UnmanagedDll.Dispose(System.Boolean)">
+            <summary>
+            Frees the native library this objects represents
+            </summary>
+            <param name="disposing"></param>
+        </member>
+        <member name="P:RDotNet.NativeLibrary.UnmanagedDll.IsInvalid">
+            <summary>
+            Gets whether the current handle is equal to the invalid handle
+            </summary>
+        </member>
+        <member name="P:RDotNet.NativeLibrary.UnmanagedDll.DllFilename">
+            <summary>
+            Gets the Dll file name used for this native Dll wrapper.
+            </summary>
+        </member>
+        <member name="T:RDotNet.NativeLibrary.NativeUtility">
+            <summary>
+            Collection of utility methods for operating systems.
+            </summary>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.NativeUtility.GetPlatform">
+            <summary>
+            Gets the platform on which the current process runs.
+            </summary>
+            <remarks>
+            <see cref="P:System.Environment.OSVersion"/>'s platform is not <see cref="F:System.PlatformID.MacOSX"/> even on Mac OS X.
+            This method returns <see cref="F:System.PlatformID.MacOSX"/> when the current process runs on Mac OS X.
+            This method uses UNIX's uname command to check the operating system,
+            so this method cannot check the OS correctly if the PATH environment variable is changed (will returns <see cref="F:System.PlatformID.Unix"/>).
+            </remarks>
+            <returns>The current platform.</returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.NativeUtility.ExecCommand(System.String,System.String)">
+            <summary>
+            Execute a command in a new process
+            </summary>
+            <param name="processName">Process name e.g. "uname"</param>
+            <param name="arguments">Arguments e.g. "-s"</param>
+            <returns>The output of the command to the standard output stream</returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.NativeUtility.SetEnvironmentVariables(System.String,System.String)">
+            <summary>
+            Sets the PATH and R_HOME environment variables if needed.
+            </summary>
+            <param name="rPath">The path of the directory containing the R native library. 
+            If null (default), this function tries to locate the path via the Windows registry, or commonly used locations on MacOS and Linux</param>
+            <param name="rHome">The path for R_HOME. If null (default), the function checks the R_HOME environment variable. If none is set, 
+            the function uses platform specific sensible default behaviors.</param>
+            <remarks>
+            This function has been designed to limit the tedium for users, while allowing custom settings for unusual installations.
+            </remarks>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.NativeUtility.GetRHomeEnvironmentVariable">
+            <summary>
+            Gets the value, if any, of the R_HOME environment variable of the current process
+            </summary>
+            <returns>The value, or null if not set</returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.NativeUtility.FindRHome(System.String)">
+            <summary>
+            Try to locate the directory path to use for the R_HOME environment variable. This is used by R.NET by default; users may want to use it to diagnose problematic behaviors.
+            </summary>
+            <param name="rPath">Optional path to the directory containing the R shared library. This is ignored unless on a Unix platform (i.e. ignored on Windows and MacOS)</param>
+            <returns>The path that R.NET found suitable as a candidate for the R_HOME environment</returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.NativeUtility.FindRPath">
+            <summary>
+            Attempt to find a suitable path to the R shared library. This is used by R.NET by default; users may want to use it to diagnose problematic behaviors.
+            </summary>
+            <returns>The path to the directory where the R shared library is expected to be</returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.NativeUtility.FindRPathFromRegistry">
+            <summary>
+            Windows-only function; finds in the Windows registry the path to the most recently installed R binaries.
+            </summary>
+            <returns>The path, such as</returns>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.NativeUtility.GetRDllFileName">
+            <summary>
+            Gets the default file name of the R library on the supported platforms.
+            </summary>
+            <returns>R dll file name</returns>
+        </member>
+        <member name="P:RDotNet.NativeLibrary.NativeUtility.IsUnix">
+            <summary>
+            Is the platform a unix like (Unix or MacOX)
+            </summary>
+        </member>
+        <member name="M:RDotNet.NativeLibrary.WindowsLibraryLoader.GetShortPath(System.String)">
+            <summary>
+            Gets the old style DOS short path (8.3 format) given a path name
+            </summary>
+            <param name="path">A path</param>
+            <returns>The short path name according to the Windows kernel32 API</returns>
+        </member>
+    </members>
+</doc>

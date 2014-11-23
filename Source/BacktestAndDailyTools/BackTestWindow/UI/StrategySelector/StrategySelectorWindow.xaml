@@ -1,0 +1,10 @@
+﻿<Window x:Class="BackTestWindow.UI.StrategySelectorWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Icon="..\..\Resources\mainwindow.ico"
+        Title="Selector Strategi(es)" Height="500" Width="250"  Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}" >
+    <DockPanel LastChildFill="True">
+        <Button Name="Select" Content="Select" DockPanel.Dock="Bottom" Click="Select_Click"></Button>
+        <ListBox Name="lbStrategies" Background="{StaticResource LightBackground}"  Foreground="{StaticResource Foreground}" ItemsSource="{Binding}" HorizontalAlignment="Stretch" SelectionMode="Extended"></ListBox>
+    </DockPanel>
+</Window>

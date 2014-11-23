@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <id>Prism.UnityExtensions</id>
+    <version>5.0.1</version>
+    <authors>Microsoft patterns &amp; practices</authors>
+    <owners>Microsoft patterns &amp; practices</owners>
+    <licenseUrl>http://compositewpf.codeplex.com/license</licenseUrl>
+    <projectUrl>http://prism.codeplex.com/</projectUrl>
+    <iconUrl>http://www.gravatar.com/avatar/7db4eb02e62dfb5df5067169d12d9672?s=128&amp;r=g&amp;d=retro</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Use these extensions to build Prism applications based on Unity version 3.5.</description>
+    <summary>Unity extensions for Prism.</summary>
+    <language>en-US</language>
+    <dependencies>
+      <dependency id="Unity" version="3.5.1404.0" />
+      <dependency id="Prism" version="5.0" />
+    </dependencies>
+  </metadata>
+</package>

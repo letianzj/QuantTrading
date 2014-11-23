@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>Prism.PubSubEvents</id>
+    <version>1.0.0</version>
+    <authors>Microsoft</authors>
+    <owners>Microsoft</owners>
+    <licenseUrl>http://prismwindowsruntime.codeplex.com/license</licenseUrl>
+    <projectUrl>http://prismwindowsruntime.codeplex.com/</projectUrl>
+    <iconUrl>http://www.gravatar.com/avatar/7db4eb02e62dfb5df5067169d12d9672?s=128&amp;r=g&amp;d=retro</iconUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>Event aggregation allows communication between loosely coupled components in an app, removing the need for components to have a reference to each other. Event aggregation can simplify memory management and reduce dependencies between assemblies in a Microsoft Visual Studio solution.</description>
+    <summary>Prism.PubSubEvents provides a decoupled and weak referenced implementaion of the Event Aggregation pattern.</summary>
+    <releaseNotes>This release includes a Portable Class Library version of the Prism EventAggregator that targets .NET for Windows Store apps, .NET Framework 4 and higher, Silverlight 4 and higher, Windows Phone 7 and higher, and Xbox 360.</releaseNotes>
+    <copyright>Copyright 2013</copyright>
+    <tags>Microsoft patterns practices EventAggregator events decoupled prism pubsubevents</tags>
+  </metadata>
+</package>

@@ -1,0 +1,16 @@
+{
+    "contents" : "# An Introduction to the Kalman Filter\n# Greg Welch and Gary Bishop, University of North Carolina\n# http://www.cs.unc.edu/~welch/kalman/kalmanIntro.html\n# SYSTEM DYNAMICS:\n#\n# The system evolves according to the following difference equations,\n# where quantities are further defined below:\n#\n# x = Ax + Bu + w  meaning the state vector x evolves during one time\n# (px1)  = (pxp)(px1) + (pxu)(ux1) + (px1)\n#                  step by premultiplying by the &amp;quot;state transition\n#                  matrix&amp;quot; A. There is optionally (if nonzero) an input\n#                  vector u which affects the state linearly, and this\n#                  linear effect on the state is represented by\n#                  premultiplying by the &amp;quot;input matrix&amp;quot; B. There is also\n#                  gaussian process noise w.\n# z = Hx + v       meaning the observation vector z is a linear function\n# (mx1)  = (mxp)(px1) + (mx1)\n#                  of the state vector, and this linear relationship is\n#                  represented by premultiplication by &amp;quot;observation\n#                  matrix&amp;quot; H. There is also gaussian measurement\n#                  noise v.\n#                  Here H can be time dependent to cater Kalman linear regression\n# where w ~ N(0,Q) meaning w is gaussian noise with covariance Q\n#       v ~ N(0,R) meaning v is gaussian noise with covariance R\n# x0 &amp;lt;- as.matrix(c(0,1))\n# observation z is a list of n steps; so is control u, and H\n# H &amp;lt;- list()\n# for (i in 1:15) { H[[i]] &amp;lt;- t(as.matrix(c(1,x[i])))}\nkalmanf = function(A, B, H, Q, R, z, u, x0, P0) {\n  x.post = x0\n  P.post = P0\n  \n  for (i in 1:length(z))\n  {\n    # (px1) = (pxp)(px1) + (pxu)(ux1)\n    x.apriori = A %*% x.post + B %*% u[[i]]\n    # (pxp) = (pxp)(pxp)(pxp) + (pxp)\n    P.apriori = A %*% P.post %*% t(A) + Q\n    \n    # (mx1) = (mx1) - (mxp)(px1)\n    residual.post = z[[i]] - H[[i]] %*% x.apriori\n    # (mxm) = (mxp)(pxp)(pxm) + (mxm)\n    residual.cov = H[[i]] %*% P.apriori %*% t(H[[i]]) + R\n    # (pxm) = (pxp)(pxm)(mxm)\n    kalman.gain = P.apriori %*% t(H[[i]]) %*% solve(residual.cov)\n    \n    # (px1) = (px1) + (pxm)(mx1)\n    x.post = x.apriori + kalman.gain %*% residual.post\n    # (pxp) = ( (pxp) - (pxm)(mxp) ) (pxp)\n    P.post = (diag(nrow(A)) - kalman.gain %*% H[[i]]) %*% P.apriori\n  }\n  return(x.post)\n}",
+    "created" : 1415709014578.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4092010351",
+    "id" : "471C43BC",
+    "lastKnownWriteTime" : 1364734889,
+    "path" : "C:/QuantTrading/Strategies/R/TTR.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

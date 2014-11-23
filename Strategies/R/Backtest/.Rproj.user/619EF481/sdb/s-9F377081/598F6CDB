@@ -1,0 +1,16 @@
+{
+    "contents" : "VanillaCall <- function(S0, sigma, T)\n{\n  ### parameters\n  K <- 100\n  r <- 0.01\n\n  steps <- 1000\n  nSim <- 10000\n  V <- rep(0, nSim)\n  qV <- V\n\n  for (i in 1:nSim)\n  {\n    rn <- rnorm(steps, 0, sqrt(T/steps))     # dw\n    rn <- rn * sigma               # sigma * dw\n    dlnS <- (r-0.5*sigma^2)*(T/steps) + rn        # dln(S) = (r-0.5*sigma^2)*dt + sigma*dw\n    dlnS[1] <- log(S0)\n    csumlnS <- cumsum(dlnS)\n    S <- exp(csumlnS)\n    quadraticV <- diff(S)\n    quadraticV <- quadraticV^2\n    V[i] <- exp(-r)*max(S[steps]-K,0)\n    qV[i] <- sum(quadraticV)\n  }\n\n  d1 <- (log(S0/K) + (r+sigma^2/2)*T)/(sigma*sqrt(T))\n  d2 <- (log(S0/K) + (r-sigma^2/2)*T)/(sigma*sqrt(T))\n  p <- S0*pnorm(d1) - K*exp(-r*T)*pnorm(d2)\n  delta <- pnorm(d1)\n  gamma <- dnorm(d1)/S0/sigma/sqrt(T)\n  vega <- S0*dnorm(d1)*sqrt(T)\n  theta <- -S0*dnorm(d1)*sigma/2/sqrt(T)-r*K*exp(-r*T)*pnorm(d2)\n  rho <- K*T*exp(-r*T)*pnorm(d2)\n  ret <- c(mean(V),p,delta,gamma,vega,theta,rho,mean(qV))\n  names(ret) <- c(\"simprice\",\"price\",\"delta\",\"gamma\",\"vega\",\"theta\",\"rho\",\"qudraticvariation\")\n  return (ret)\n}",
+    "created" : 1415668557696.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1012687449",
+    "id" : "598F6CDB",
+    "lastKnownWriteTime" : 1404431657,
+    "path" : "C:/QuantTrading/Strategies/R/VanillaCall.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

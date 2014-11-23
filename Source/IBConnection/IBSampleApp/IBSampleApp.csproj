@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{CB7BDB4D-923F-4C4E-BB20-68DBDC33C10A}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>IBSampleApp</RootNamespace>
+    <AssemblyName>IBSampleApp</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <BaseIntermediateOutputPath>..\..\..\Programs\obj\</BaseIntermediateOutputPath>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>tws40.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>..\..\..\Programs\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>..\..\..\Programs\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+    <Prefer32Bit>false</Prefer32Bit>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="messages\AccountDownloadEndMessage.cs" />
+    <Compile Include="messages\AccountSummaryEndMessage.cs" />
+    <Compile Include="messages\AccountSummaryMessage.cs" />
+    <Compile Include="messages\AdvisorDataMessage.cs" />
+    <Compile Include="messages\CommissionMessage.cs" />
+    <Compile Include="messages\ConnectionStatusMessage.cs" />
+    <Compile Include="messages\ContractDetailsEndMessage.cs" />
+    <Compile Include="messages\ContractDetailsMessage.cs" />
+    <Compile Include="messages\DeepBookMessage.cs" />
+    <Compile Include="messages\ExecutionMessage.cs" />
+    <Compile Include="messages\FundamentalsMessage.cs" />
+    <Compile Include="messages\HistoricalDataEndMessage.cs" />
+    <Compile Include="messages\HistoricalDataMessage.cs" />
+    <Compile Include="messages\ManagedAccountsMessage.cs" />
+    <Compile Include="messages\OpenOrderEndMessage.cs" />
+    <Compile Include="messages\OpenOrderMessage.cs" />
+    <Compile Include="messages\OrderMessage.cs" />
+    <Compile Include="messages\OrderStatusMessage.cs" />
+    <Compile Include="messages\PositionMessage.cs" />
+    <Compile Include="messages\RealTimeBarMessage.cs" />
+    <Compile Include="messages\ScannerEndMessage.cs" />
+    <Compile Include="messages\ScannerMessage.cs" />
+    <Compile Include="messages\AccountValueMessage.cs" />
+    <Compile Include="messages\TickOptionMessage.cs" />
+    <Compile Include="messages\UpdateAccountTimeMessage.cs" />
+    <Compile Include="messages\UpdatePortfolioMessage.cs" />
+    <Compile Include="types\FinancialAdvisorTypes.cs" />
+    <Compile Include="types\IBTypes.cs" />
+    <Compile Include="ui\AccountManager.cs" />
+    <Compile Include="ui\AdvisorManager.cs" />
+    <Compile Include="ui\ComboContractResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\ComboContractResults.Designer.cs">
+      <DependentUpon>ComboContractResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\ContractManager.cs" />
+    <Compile Include="ui\MarginDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\MarginDialog.Designer.cs">
+      <DependentUpon>MarginDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\OptionsManager.cs" />
+    <Compile Include="ui\OrderDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\OrderDialog.Designer.cs">
+      <DependentUpon>OrderDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ui\DataManager.cs" />
+    <Compile Include="ui\DeepBookManager.cs" />
+    <Compile Include="backend\IBClient.cs" />
+    <Compile Include="messages\ErrorMessage.cs" />
+    <Compile Include="messages\IBMessage.cs" />
+    <Compile Include="messages\MarketDataMessage.cs" />
+    <Compile Include="messages\TickPriceMessage.cs" />
+    <Compile Include="messages\TickSizeMessage.cs" />
+    <Compile Include="ui\HistoricalDataManager.cs" />
+    <Compile Include="ui\IBSampleApp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ui\IBSampleApp.Designer.cs">
+      <DependentUpon>IBSampleApp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="messages\MessageType.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ui\MarketDataManager.cs" />
+    <Compile Include="ui\OrderManager.cs" />
+    <Compile Include="ui\RealTimeBarsManager.cs" />
+    <Compile Include="ui\ScannerManager.cs" />
+    <Compile Include="util\Utils.cs" />
+    <Compile Include="util\XmlHelper.cs" />
+    <EmbeddedResource Include="ui\ComboContractResults.resx">
+      <DependentUpon>ComboContractResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\IBSampleApp.resx">
+      <DependentUpon>IBSampleApp.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ui\MarginDialog.resx">
+      <DependentUpon>MarginDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ui\OrderDialog.resx">
+      <DependentUpon>OrderDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="tws40.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\csharpclient\CSharpAPI.csproj">
+      <Project>{8ede0744-96c2-40b0-a8dc-37df79370203}</Project>
+      <Name>CSharpAPI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

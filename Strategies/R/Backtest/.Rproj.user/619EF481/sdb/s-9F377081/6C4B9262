@@ -1,0 +1,16 @@
+{
+    "contents" : "#*************** Find the Swing ******************#\n# input: ohlcv = xts, swingfilter = 4% by default \n# return = 1: upward reversal; -1: downward reversal; otherwise return 0\n#****************************************************************************#\nSwing <- function(ohlcv, swingfilter=0.04)\n{\n  n = nrow(ohlcv);\n  \n  # step 1: Swing filter is fixed or relative %, default 4%\n  \n  # step 2: plot first bar, its uptrend if close < (high+Low)/2; downtrend otherwise.\n  #   If the assumption is wrong, the chart will correct itself soon.\n  \n  # step 3: Move to the next day or, if intraday, move to the next bar.\n  \n  # step 4: If price are in an upswing\n  \n  return (keyReversal)\n}",
+    "created" : 1415022019356.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3902654075",
+    "id" : "6C4B9262",
+    "lastKnownWriteTime" : 1415109495,
+    "path" : "C:/QuantTrading/Strategies/R/Backtest/Swing.R",
+    "project_path" : "Swing.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

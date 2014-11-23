@@ -1,0 +1,45 @@
+﻿<UserControl x:Class="Modules.RealTimeQuotePresentation.Views.QuoteGridView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:localview="clr-namespace:Modules.RealTimeQuotePresentation.ViewModels"
+             xmlns:localmodel="clr-namespace:Modules.RealTimeQuotePresentation.Model"
+             mc:Ignorable="d">
+    <UserControl.Resources>
+        <localmodel:QuotePairToQuoteConverter x:Key="QuotePairToQuoteConverter"/>
+        <localmodel:QuotePairToColorConverter x:Key="QuotePairToColorConverter"/>
+    </UserControl.Resources>
+    <DataGrid Grid.Row="0" Name="QuoteGrid" ItemsSource="{Binding Path=QuoteGridList}" SelectedIndex="{Binding SelectedSymbolIndex}" SelectionUnit="FullRow" HorizontalAlignment="Stretch" CanUserAddRows="False" CanUserReorderColumns="false" AutoGenerateColumns="False" CanUserSortColumns="False">
+        <DataGrid.Columns>
+            <DataGridTextColumn Header="Symbol" Binding="{Binding Symbol}"></DataGridTextColumn>
+            <DataGridTextColumn Header="BidSize" Binding="{Binding BidSize}"></DataGridTextColumn>
+            <DataGridTextColumn Header="Bid" Binding="{Binding BidPair, Converter={StaticResource QuotePairToQuoteConverter}}">
+                <DataGridTextColumn.CellStyle>
+                    <Style TargetType="DataGridCell">
+                        <Setter Property="Foreground"  Value="{Binding BidPair, Converter={StaticResource QuotePairToColorConverter}}"></Setter>
+                    </Style>
+                </DataGridTextColumn.CellStyle>
+            </DataGridTextColumn>
+            <DataGridTextColumn Header="Ask" Binding="{Binding AskPair, Converter={StaticResource QuotePairToQuoteConverter}}">
+                <DataGridTextColumn.CellStyle>
+                    <Style TargetType="DataGridCell">
+                        <Setter Property="Foreground"  Value="{Binding AskPair, Converter={StaticResource QuotePairToColorConverter}}"></Setter>
+                    </Style>
+                </DataGridTextColumn.CellStyle>
+            </DataGridTextColumn>
+            <DataGridTextColumn Header="AskSize" Binding="{Binding AskSize}"></DataGridTextColumn>
+            <DataGridTextColumn Header="Trade" Binding="{Binding TradePair, Converter={StaticResource QuotePairToQuoteConverter}}">
+                <DataGridTextColumn.CellStyle>
+                    <Style TargetType="DataGridCell">
+                        <Setter Property="Foreground"  Value="{Binding TradePair, Converter={StaticResource QuotePairToColorConverter}}"></Setter>
+                    </Style>
+                </DataGridTextColumn.CellStyle>
+            </DataGridTextColumn>
+            <DataGridTextColumn Header="Size" Binding="{Binding Size}"></DataGridTextColumn>
+            <DataGridTextColumn Header="Preclose" Binding="{Binding PreClose}"></DataGridTextColumn>
+            <DataGridTextColumn Header="Change" Binding="{Binding Change}"></DataGridTextColumn>
+            <DataGridTextColumn Header="Change(%)" Binding="{Binding ChangePercentage}"></DataGridTextColumn>
+        </DataGrid.Columns>
+    </DataGrid>
+</UserControl>

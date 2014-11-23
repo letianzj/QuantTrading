@@ -1,0 +1,95 @@
+2014-10-28 22:00:41,194 [9] DEBUG QTShell.Log4NetLoggerAdapter Logger was created successfully.
+2014-10-28 22:00:41,214 [9] DEBUG QTShell.Log4NetLoggerAdapter Creating module catalog.
+2014-10-28 22:00:41,216 [9] DEBUG QTShell.Log4NetLoggerAdapter Configuring module catalog.
+2014-10-28 22:00:41,277 [9] DEBUG QTShell.Log4NetLoggerAdapter Creating Unity container.
+2014-10-28 22:00:41,449 [9] DEBUG QTShell.Log4NetLoggerAdapter Configuring the Unity container.
+2014-10-28 22:00:41,650 [9] DEBUG QTShell.Log4NetLoggerAdapter Adding UnityBootstrapperExtension to container.
+2014-10-28 22:00:42,006 [9] DEBUG QTShell.Log4NetLoggerAdapter Configuring ServiceLocator singleton.
+2014-10-28 22:00:42,007 [9] DEBUG QTShell.Log4NetLoggerAdapter Configuring region adapters.
+2014-10-28 22:00:42,025 [9] DEBUG QTShell.Log4NetLoggerAdapter Configuring default region behaviors.
+2014-10-28 22:00:42,027 [9] DEBUG QTShell.Log4NetLoggerAdapter Registering Framework Exception Types.
+2014-10-28 22:00:42,028 [9] DEBUG QTShell.Log4NetLoggerAdapter Creating the shell.
+2014-10-28 22:00:42,133 [9] DEBUG QTShell.Log4NetLoggerAdapter Setting the RegionManager.
+2014-10-28 22:00:42,135 [9] DEBUG QTShell.Log4NetLoggerAdapter Updating Regions.
+2014-10-28 22:00:42,180 [9] DEBUG QTShell.Log4NetLoggerAdapter Initializing the shell.
+2014-10-28 22:00:42,289 [9] DEBUG QTShell.Log4NetLoggerAdapter Initializing modules.
+2014-10-28 22:00:42,461 [9] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderAndPositions Loaded
+2014-10-28 22:00:42,606 [9] INFO  QTShell.Log4NetLoggerAdapter Module RealTimeQuoteGrid Loaded
+2014-10-28 22:00:42,706 [9] INFO  QTShell.Log4NetLoggerAdapter Module ModuleStrategyManager Loaded
+2014-10-28 22:00:42,878 [9] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderTicket Loaded
+2014-10-28 22:00:43,083 [9] INFO  QTShell.Log4NetLoggerAdapter Module ModuleFramework Loaded
+2014-10-28 22:00:43,129 [14] INFO  QTShell.Log4NetLoggerAdapter Account: DU15037
+2014-10-28 22:00:43,129 [9] INFO  QTShell.Log4NetLoggerAdapter Server Version: 71
+2014-10-28 22:00:43,130 [14] INFO  QTShell.Log4NetLoggerAdapter Next Valid Order Id: 25
+2014-10-28 22:00:43,131 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:ibdemo
+2014-10-28 22:00:43,132 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:demohmds
+2014-10-28 22:01:06,610 [9] DEBUG QTShell.Log4NetLoggerAdapter Bootstrapper sequence completed.
+2014-10-28 22:01:15,623 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 49; Error code = 200; Error Message = No security definition has been found for the request
+2014-10-28 22:01:15,623 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 52; Error code = 200; Error Message = No security definition has been found for the request
+2014-10-28 22:01:15,626 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 67; Error code = 200; Error Message = No security definition has been found for the request
+2014-10-28 22:03:00,080 [15] INFO  QTShell.Log4NetLoggerAdapter Cross above EMA, buy
+2014-10-28 22:03:00,171 [15] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 220300, EMA:34.72
+2014-10-28 22:03:00,171 [15] INFO  QTShell.Log4NetLoggerAdapter Cross above EMA, buy
+2014-10-28 22:03:00,179 [15] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 220300, EMA:1932.28
+2014-10-28 22:03:00,209 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 25; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-10-28 22:03:00,232 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 26; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-10-28 22:03:00,319 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 26; Error code = 451; Error Message = The following order "ID:26" value estimate of 9,662,500 USD exceeds 
+the Total Value Limit of 5,000,001 USD.
+Restriction is specified in Precautionary Settings of Global Configuration/Presets.
+2014-10-28 22:03:00,456 [14] INFO  QTShell.Log4NetLoggerAdapter order accepted: 25
+2014-10-28 22:03:00,459 [9] INFO  QTShell.Log4NetLoggerAdapter Order id 25 is not found in order table
+2014-10-28 22:03:00,477 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 25, VXX STK SMART
+2014-10-28 22:03:17,561 [9] INFO  QTShell.Log4NetLoggerAdapter VXX STK SMART filled size: 100 after: 25,DU15037,20141028,220319,VXX STK SMART,100,34.75
+2014-10-28 22:03:17,569 [15] INFO  QTShell.Log4NetLoggerAdapter Cross above EMA, buy
+2014-10-28 22:03:17,569 [15] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 220317, EMA:190.85
+2014-10-28 22:03:35,835 [15] INFO  QTShell.Log4NetLoggerAdapter Cross below EMA, sell
+2014-10-28 22:03:35,835 [15] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 220335, EMA:25.12
+2014-10-28 22:03:35,854 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 11; Error code = 162; Error Message = Historical Market Data Service error message:HMDS query returned no data: SLY@SMART Trades
+2014-10-28 22:03:35,885 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 27; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-10-28 22:03:35,886 [14] INFO  QTShell.Log4NetLoggerAdapter order accepted: 27
+2014-10-28 22:03:35,886 [9] INFO  QTShell.Log4NetLoggerAdapter Order id 27 is not found in order table
+2014-10-28 22:03:35,886 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 27, SPY STK SMART
+2014-10-28 22:03:48,603 [9] INFO  QTShell.Log4NetLoggerAdapter SPY STK SMART filled size: 100 after: 27,DU15037,20141028,220337,SPY STK SMART,100,190.87
+2014-10-28 22:04:00,505 [15] INFO  QTShell.Log4NetLoggerAdapter Counter trend, exit.
+2014-10-28 22:04:00,506 [15] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 220400, EMA:190.85
+2014-10-28 22:04:00,578 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 28; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-10-28 22:04:00,578 [14] INFO  QTShell.Log4NetLoggerAdapter order accepted: 28
+2014-10-28 22:04:00,579 [9] INFO  QTShell.Log4NetLoggerAdapter Order id 28 is not found in order table
+2014-10-28 22:04:00,579 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 28, SDS STK SMART
+2014-10-28 22:04:08,523 [9] INFO  QTShell.Log4NetLoggerAdapter SDS STK SMART filled size: -100 after: 28,DU15037,20141028,220355,SDS STK SMART,-100,25.09
+2014-10-28 22:04:20,159 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 14; Error code = 162; Error Message = Historical Market Data Service error message:HMDS query returned no data: TVIX@SMART Trades
+2014-10-28 22:04:20,186 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 29; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-10-28 22:04:20,190 [14] INFO  QTShell.Log4NetLoggerAdapter order accepted: 29
+2014-10-28 22:04:20,190 [9] INFO  QTShell.Log4NetLoggerAdapter Order id 29 is not found in order table
+2014-10-28 22:04:20,190 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 29, SPY STK SMART
+2014-10-28 22:04:30,844 [9] INFO  QTShell.Log4NetLoggerAdapter SPY STK SMART filled size: -100 after: 29,DU15037,20141028,220420,SPY STK SMART,-100,190.86
+2014-10-28 22:05:00,521 [23] INFO  QTShell.Log4NetLoggerAdapter Cross below EMA, sell
+2014-10-28 22:05:00,521 [23] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 220500, EMA:190.84
+2014-10-28 22:05:00,546 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 30; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-10-28 22:05:00,574 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 30; Error code = 404; Error Message = Order held while securities are located.
+2014-10-28 22:05:00,576 [14] INFO  QTShell.Log4NetLoggerAdapter order accepted: 30
+2014-10-28 22:05:00,576 [9] INFO  QTShell.Log4NetLoggerAdapter Order id 30 is not found in order table
+2014-10-28 22:05:00,576 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 30, SPY STK SMART
+2014-10-28 22:05:30,968 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 23; Error code = 162; Error Message = Historical Market Data Service error message:HMDS query returned no data: IPE@SMART Trades
+2014-10-28 22:05:51,357 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 25; Error code = 162; Error Message = Historical Market Data Service error message:HMDS query returned no data: JJM@SMART Trades
+2014-10-28 22:06:21,389 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 28; Error code = 162; Error Message = Historical Market Data Service error message:HMDS query returned no data: BNO@SMART Trades
+2014-10-28 22:06:42,228 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 30; Error code = 162; Error Message = Historical Market Data Service error message:HMDS query returned no data: SLV@SMART Trades
+2014-10-28 22:06:50,980 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 31; Error code = 162; Error Message = Historical Market Data Service error message:HMDS query returned no data: GAZ@SMART Trades
+2014-10-28 22:07:00,449 [15] INFO  QTShell.Log4NetLoggerAdapter Counter trend, exit.
+2014-10-28 22:07:00,449 [15] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 220700, EMA:34.73
+2014-10-28 22:07:00,471 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 31; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-10-28 22:07:00,495 [14] INFO  QTShell.Log4NetLoggerAdapter order accepted: 31
+2014-10-28 22:07:00,495 [9] INFO  QTShell.Log4NetLoggerAdapter Order id 31 is not found in order table
+2014-10-28 22:07:00,495 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 31, VXX STK SMART
+2014-10-28 22:07:03,879 [9] INFO  QTShell.Log4NetLoggerAdapter VXX STK SMART filled size: -100 after: 31,DU15037,20141028,220720,VXX STK SMART,-100,34.70
+2014-10-28 22:07:07,208 [22] INFO  QTShell.Log4NetLoggerAdapter Counter trend, exit.
+2014-10-28 22:07:07,210 [22] INFO  QTShell.Log4NetLoggerAdapter rid=3, name=ClassicStrategies.EMASimple, indicator=Time: 220707, EMA:25.11
+2014-10-28 22:07:07,231 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 32; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2014-10-28 22:07:07,255 [14] INFO  QTShell.Log4NetLoggerAdapter order accepted: 32
+2014-10-28 22:07:07,256 [9] INFO  QTShell.Log4NetLoggerAdapter Order id 32 is not found in order table
+2014-10-28 22:07:07,256 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 32, SDS STK SMART
+2014-10-28 22:07:07,689 [14] INFO  QTShell.Log4NetLoggerAdapter Shutting down strategy EMA Simple Crossover
+2014-10-28 22:07:07,694 [9] INFO  QTShell.Log4NetLoggerAdapter SDS STK SMART filled size: 100 after: 32,DU15037,20141028,220726,SDS STK SMART,100,25.13
+2014-10-28 22:07:13,959 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 33; Error code = 162; Error Message = Historical Market Data Service error message:HMDS query returned no data: PTM@SMART Trades
+2014-10-28 22:07:23,967 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 34; Error code = 162; Error Message = Historical Market Data Service error message:HMDS query returned no data: JJA@SMART Trades
+2014-10-28 22:07:34,688 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = 35; Error code = 162; Error Message = Historical Market Data Service error message:HMDS query returned no data: JJC@SMART Trades
