@@ -42,7 +42,7 @@ namespace TradingBase
         void RequestMarketData(Basket b);
         void RequestMarketDepth(int depth);
         void CancelMarketData();         // Cancel all the market data and depth requests
-        void RequestHistoricalData(BarRequest br);
+        void RequestHistoricalData(BarRequest br, bool useRTH = false);
         void PlaceOrder(Order o);
         void CancelOrder(long strategyOrderId);
 

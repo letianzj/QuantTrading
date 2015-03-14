@@ -74,7 +74,7 @@ namespace ClassicStrategies
             Indicators = new string[] { "Time", "EMA" };
 
             _symbols.Add("SDS STK SMART"); _symbols.Add("SPY STK SMART"); _symbols.Add("VXX STK SMART");
-            _symbols.Add("ESZ4 FUT GLOBEX 50");
+            _symbols.Add("ESM5 FUT GLOBEX 50");
         }
 
         void _barlisttracker_GotNewBar(string sym, int interval)

@@ -1,0 +1,16 @@
+Y1,Description1,Y2,Description2,Category,H_Prior
+SPY,SPDR S&P 500,DIA,SPDR DJIA ETF,Index Pairs,1.3
+SPY,SPDR S&P 500,QQQ,Powshares QQQ Trust,Index Pairs,1.8
+USO,United States Oil Fund,OIL,Crude Oil Total Return Index,Commodity Pairs,1.25
+USO,United States Oil Fund,BNO,United States Brent Oil Fund,Commodity Pairs,0.1
+USO,United States Oil Fund,XLE,Energy Select Sector SPDR Fund,Commodity Pairs,1.1
+GLD,SPDR Gold Trust (ETF),GDX,Gold Miners ETF,Commodity Pairs,10.5
+XLU,SPDR Utility Sector Fund,XLF,SPDR Financial Sector Fund,Sector Pairs,1.45
+EWA,MSCI Australia Index,EWC,MSCI Canada Index,Country Pairs,1.1
+EWJ,MSCI Japan Index,EWT,MSCI Taiwan Index,Country Pairs,0.65
+EWM,MSCI Malaysia Index,EWS,MSCI Singapore Index,Country Pairs,1.4
+XOM,Exxon Mobile,CVX,Chevron,Stock Pairs,0.5
+PG,Procter & Gamble,UN,Unilever,Stock Pairs,1.7
+WMT,Walmart,TGT,Target,Stock Pairs,1.8
+AAPL,Apple,GOOGL,Google,Stock Pairs,0.2
+KO,Coca-Cola,PEP,Pepsi,Stock Pairs,0.5

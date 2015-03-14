@@ -215,7 +215,7 @@ namespace Modules.Framework.Services
         public void ReqHistoricalData(BarRequest br)
         {
             if (_client != null)
-                _client.RequestHistoricalData(br);
+                _client.RequestHistoricalData(br, true);
         }
         #endregion
     }

@@ -114,7 +114,7 @@ namespace HistoricalDataDownloader
                         // 1 = 1 second
                         BarRequest br = new BarRequest(sym, 1, Util.ToIntDate(s.Date), Util.ToIntTime(s.Hour, s.Minute, s.Second),
                             Util.ToIntDate(t.Date), Util.ToIntTime(t.Hour, t.Minute, t.Second), _client);
-                        _iclient.RequestHistoricalData(br);
+                        _iclient.RequestHistoricalData(br, true);
 
                         // Do not make more than 60 historical data requests in any ten-minute period.
                         // If I have 10 names, each can only make 6 requests in ten minute;
@@ -148,8 +148,9 @@ namespace HistoricalDataDownloader
 
             foreach (string s in _basket.Securities)
             {
+                List<string> noDups = _sec2bars[s].Distinct().ToList();
                 //_sec2bars[s].Insert(0, _processedBars[s].ToString());
-                File.WriteAllLines(_outfiles[s], _sec2bars[s]);
+                File.WriteAllLines(_outfiles[s], noDups);
             }
         }
 

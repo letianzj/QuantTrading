@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Basket xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>MySecurityList</Name>
+  <Securities>
+    <string>GOOG STK SMART</string>
+    <string>AAPL STK SMART</string>
+    <string>SPY STK SMART</string>
+    <string>SSO STK SMART</string>
+    <string>SDS STK SMART</string>
+    <string>VXX STK SMART</string>
+    <string>QLD STK SMART</string>
+	<string>QQQ STK SMART</string>
+    <string>DIA STK SMART</string>
+    <string>IWM STK SMART</string>
+    <string>IJH STK SMART</string>
+    <string>SLY STK SMART</string>
+    <string>SPXL STK SMART</string>
+    <string>SPXU STK SMART</string>
+    <string>TVIX STK SMART</string>
+    <string>XIV STK SMART</string>
+    <string>TZA STK SMART</string>
+    <string>VWO STK SMART</string>
+    <string>EEM STK SMART</string>
+    <string>FXI STK SMART</string>
+    <string>EFA STK SMART</string>
+    <string>TLT STK SMART</string>
+    <string>JNK STK SMART</string>
+    <string>IPE STK SMART</string>
+    <string>TBT STK SMART</string>
+    <string>JJM STK SMART</string>
+    <string>OIL STK SMART</string>
+    <string>USO STK SMART</string>
+    <string>BNO STK SMART</string>
+    <string>GLD STK SMART</string>
+    <string>SLV STK SMART</string>
+    <string>GAZ STK SMART</string>
+    <string>UNG STK SMART</string>
+    <string>PTM STK SMART</string>
+    <string>JJA STK SMART</string>
+    <string>JJC STK SMART</string>
+    <string>XLF STK SMART</string>
+    <string>XLI STK SMART</string>
+    <string>XLE STK SMART</string>
+    <string>XLY STK SMART</string>
+    <string>XLP STK SMART</string>
+    <string>XLV STK SMART</string>
+    <string>XLB STK SMART</string>
+    <string>XLK STK SMART</string>
+    <string>XLU STK SMART</string>
+    <string>FAZ STK SMART</string>
+    <string>GDX STK SMART</string>
+    <string>FAS STK SMART</string>
+    <string>XHB STK SMART</string>
+    <string>RTL STK SMART</string>
+    <string>REZ STK SMART</string>
+    <string>REM STK SMART</string>
+    <string>FNIO STK SMART</string>
+    <string>EWA STK SMART</string>
+    <string>EWH STK SMART</string>
+    <string>EWI STK SMART</string>
+    <string>EWJ STK SMART</string>
+    <string>EWM STK SMART</string>
+    <string>EWP STK SMART</string>
+    <string>EWS STK SMART</string>
+    <string>EWU STK SMART</string>
+    <string>EWY STK SMART</string>
+    <string>EWZ STK SMART</string>
+    <string>FXB STK SMART</string>
+    <string>CYB STK SMART</string>
+    <string>FXE STK SMART</string>
+    <string>FXY STK SMART</string>
+    <string>ESU4 FUT GLOBEX 50</string>
+    <string>ESZ4 FUT GLOBEX 50</string>
+  </Securities>
+</Basket>

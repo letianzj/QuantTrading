@@ -200,7 +200,7 @@ namespace TradingBase
         /// http://www.codeproject.com/KB/IP/google_finance_downloader.aspx
         /// </summary>
         /// <param name="br"></param>
-        public void RequestHistoricalData(BarRequest br)
+        public void RequestHistoricalData(BarRequest br, bool useRTH=false)
         {
             // Google always returns the most recent data. 
             // i is interval in seconds, set to 60s, ignore interval

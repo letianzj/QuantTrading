@@ -227,7 +227,7 @@ namespace TradingBase
         /// request historical bar
         /// </summary>
         /// <param name="barsize"> less than 1 day, in seconds </param>
-        public void RequestHistoricalData(BarRequest br)
+        public void RequestHistoricalData(BarRequest br, bool useRTH = false)
         //Security sec, DateTime starttime, DateTime endtime, int barsize)
         {
             Contract contract = SecurityFullNameToContract(br.FullSymbol);
@@ -236,7 +236,7 @@ namespace TradingBase
             else
                 contract.IncludeExpired = true;
 
-            int useReguarTradingHour = 0;
+            int useReguarTradingHour = useRTH ? 1 : 0;
             string barSize;
             switch (br.Interval)
             {
