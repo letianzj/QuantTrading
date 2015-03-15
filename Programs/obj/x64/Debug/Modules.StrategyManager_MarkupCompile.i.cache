@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\QuantTrading\Programs\obj\x64\Debug\
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\
 Modules.StrategyManager
 none
 false
@@ -13,7 +13,7 @@ DEBUG;TRACE
 1-1314845084
 
 12-2040882264
-26-111896546
+261678915551
 View\StrategyGridView.xaml;
 
 False

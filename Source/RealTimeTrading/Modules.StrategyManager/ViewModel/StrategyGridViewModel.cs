@@ -56,6 +56,7 @@ namespace Modules.StrategyManager.ViewModel
             _quotefeedservice.QuoteFeeViewModel = this;
 
             _eventAggregator.GetEvent<InitialPositionEvent>().Subscribe(ClientGotInitialPosition);
+            _eventAggregator.GetEvent<HistBarEvent>().Subscribe(ClientGotHistBar);
             //_eventaggregator.GetEvent<SendOrderEvent>().Subscribe(ClientGotOrder);
             _eventAggregator.GetEvent<OrderConfirmationEvent>().Subscribe(ClientGotOrder);
             _eventAggregator.GetEvent<OrderCancelConfirmationEvent>().Subscribe(ClientGotOrderCancelConfirmation);
@@ -208,6 +209,17 @@ namespace Modules.StrategyManager.ViewModel
             foreach (StrategyItem si in _strategyitemlist)
             {
                 si.S.GotPosition(obj);
+            }
+        }
+
+        /// <summary>
+        /// Previous day daily bar
+        /// </summary>
+        private void ClientGotHistBar(Bar br)
+        {
+            foreach (StrategyItem si in _strategyitemlist)
+            {
+                si.S.GotHistoricalBar(br);
             }
         }
 

@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\QuantTrading\Programs\obj\x64\Debug\
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\
 QTShell
 none
 false
 DEBUG;TRACE
-C:\QuantTrading\Source\RealTimeTrading\QTShell\App.xaml
+C:\Workspace\QuantTrading\Source\RealTimeTrading\QTShell\App.xaml
 14-1356473044
 
 111951932128
-31533852375
+31-1851791711
 Resources\Controls\ButtonStyles.xaml;Resources\Controls\ComboBoxStyles.xaml;Resources\Controls\DataGridStyles.xaml;Resources\Controls\GroupBoxStyles.xaml;Resources\Controls\ListBoxStyles.xaml;Resources\Controls\MenuStyles.xaml;Resources\Controls\ScrollBarStyles.xaml;Resources\Controls\Styles.xaml;Resources\Controls\TabControlStyles.xaml;Resources\Controls\TextBoxStyles.xaml;Resources\Controls\WindowStyles.xaml;Resources\MetroWindowResources.xaml;Resources\Resources.xaml;Shell.xaml;
 
 False

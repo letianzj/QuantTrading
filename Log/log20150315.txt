@@ -1,0 +1,32 @@
+2015-03-15 18:52:12,370 [9] DEBUG QTShell.Log4NetLoggerAdapter Logger was created successfully.
+2015-03-15 18:52:12,388 [9] DEBUG QTShell.Log4NetLoggerAdapter Creating module catalog.
+2015-03-15 18:52:12,390 [9] DEBUG QTShell.Log4NetLoggerAdapter Configuring module catalog.
+2015-03-15 18:52:12,418 [9] DEBUG QTShell.Log4NetLoggerAdapter Creating Unity container.
+2015-03-15 18:52:12,496 [9] DEBUG QTShell.Log4NetLoggerAdapter Configuring the Unity container.
+2015-03-15 18:52:12,687 [9] DEBUG QTShell.Log4NetLoggerAdapter Adding UnityBootstrapperExtension to container.
+2015-03-15 18:52:13,039 [9] DEBUG QTShell.Log4NetLoggerAdapter Configuring ServiceLocator singleton.
+2015-03-15 18:52:13,040 [9] DEBUG QTShell.Log4NetLoggerAdapter Configuring region adapters.
+2015-03-15 18:52:13,058 [9] DEBUG QTShell.Log4NetLoggerAdapter Configuring default region behaviors.
+2015-03-15 18:52:13,060 [9] DEBUG QTShell.Log4NetLoggerAdapter Registering Framework Exception Types.
+2015-03-15 18:52:13,061 [9] DEBUG QTShell.Log4NetLoggerAdapter Creating the shell.
+2015-03-15 18:52:13,156 [9] DEBUG QTShell.Log4NetLoggerAdapter Setting the RegionManager.
+2015-03-15 18:52:13,158 [9] DEBUG QTShell.Log4NetLoggerAdapter Updating Regions.
+2015-03-15 18:52:13,201 [9] DEBUG QTShell.Log4NetLoggerAdapter Initializing the shell.
+2015-03-15 18:52:13,613 [9] DEBUG QTShell.Log4NetLoggerAdapter Initializing modules.
+2015-03-15 18:52:13,781 [9] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderAndPositions Loaded
+2015-03-15 18:52:13,919 [9] INFO  QTShell.Log4NetLoggerAdapter Module RealTimeQuoteGrid Loaded
+2015-03-15 18:52:17,567 [9] INFO  QTShell.Log4NetLoggerAdapter Module ModuleStrategyManager Loaded
+2015-03-15 18:52:17,727 [9] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderTicket Loaded
+2015-03-15 18:52:17,744 [9] INFO  QTShell.Log4NetLoggerAdapter Module ModuleFramework Loaded
+2015-03-15 18:52:17,797 [14] INFO  QTShell.Log4NetLoggerAdapter Account: DU206863
+2015-03-15 18:52:17,798 [9] INFO  QTShell.Log4NetLoggerAdapter Server Version: 71
+2015-03-15 18:52:17,798 [14] INFO  QTShell.Log4NetLoggerAdapter Next Valid Order Id: 33
+2015-03-15 18:52:17,800 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfuture
+2015-03-15 18:52:17,800 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2015-03-15 18:52:17,800 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm
+2015-03-15 18:52:17,801 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:ushmds.us
+2015-03-15 18:52:17,801 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:ilhmds
+2015-03-15 18:52:17,801 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:ushmds
+2015-03-15 18:52:20,822 [9] DEBUG QTShell.Log4NetLoggerAdapter Bootstrapper sequence completed.
+2015-03-15 18:52:49,116 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-15 18:52:49,117 [14] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us

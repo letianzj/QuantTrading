@@ -71,6 +71,10 @@ namespace QTShell
             string _rootpath = Util.GetRootPath();
             ConfigManager _configmanagerservice = ConfigManager.Deserialize(_rootpath + @"\Config\mainsettings.xml");
             this.Container.RegisterInstance<IConfigManager>(_configmanagerservice);        // register
+            // Set up email
+            // Util.EmailFrom = _configmanagerservice.GmailFrom;
+            // Util.EmailPass = _configmanagerservice.GmailPass;
+            // Util.EmailTo = _configmanagerservice.EmailTo;
 
             // _container.RegisterType<IGlobalIdService, GlobalIdService>(new ContainerControlledLifetimeManager());
             GlobalIdService _globalidservice = new GlobalIdService();

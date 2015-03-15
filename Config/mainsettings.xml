@@ -18,7 +18,7 @@
   <GmailPass>yourgmailpass</GmailPass>
   <EmailTo>youremail@gmail.com</EmailTo>
   <RunVersion>Debug</RunVersion>
-  <DllName>ClassicStrategies.dll</DllName>
+  <DllName>MyStrategies.dll</DllName>
   <TickQueueCapacity>50000</TickQueueCapacity>
   <DailyOrderCapacity>500</DailyOrderCapacity>
   <EnableOversellProtect>true</EnableOversellProtect>
@@ -35,9 +35,8 @@
   <DailyPairs>\Config\DailyPairs20140923.csv</DailyPairs>
   <DailyResultPath>\HistData\Daily\</DailyResultPath>
   <Strategies>
-    <string>ClassicStrategies.AlwaysEnter</string>
-    <string>ClassicStrategies.HelloWorld</string>
-	<string>ClassicStrategies.EMASimple</string>
+	<string>MyStrategies.DailyCloseEmail</string>
+	<string>MyStrategies.DualTimeFrameMarketOrder</string>
   </Strategies>
   <Holidays>
     <string>20140101</string>

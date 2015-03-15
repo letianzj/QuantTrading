@@ -3,6 +3,8 @@
   <Name>MySecurityList</Name>
   <Securities>
     <string>SPY STK SMART</string>
+	<string>VXX STK SMART</string>
+	<string>GLD STK SMART</string>
     <string>ESH5 FUT GLOBEX 50</string>
     <string>ESM5 FUT GLOBEX 50</string>
 	<string>NQH5 FUT GLOBEX 20</string>
@@ -13,5 +15,10 @@
 	<string>NGJ5 FUT NYMEX 10000</string>
 	<string>NGK5 FUT NYMEX 10000</string>
 	<string>NGM5 FUT NYMEX 10000</string>
+	<string>EXC STK SMART</string>
+	<string>BP STK SMART</string>
+	<string>XOM STK SMART</string>
+	<string>XLU STK SMART</string>
+	<string>AAPL STK SMART</string>
   </Securities>
 </Basket>

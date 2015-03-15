@@ -274,7 +274,7 @@ namespace MyStrategies
 
             // potential orders
             int idx = _symbols.IndexOf(k.FullSymbol);
-            if (_isHigherTimeFrameBullBear[idx] == _isLowerTimeFrameBullBear[idx])
+            //if (_isHigherTimeFrameBullBear[idx] == _isLowerTimeFrameBullBear[idx])
             {
 
             }

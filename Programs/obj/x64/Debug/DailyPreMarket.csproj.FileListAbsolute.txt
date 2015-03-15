@@ -1,0 +1,6 @@
+C:\Workspace\QuantTrading\Programs\Debug\DailyPreMarket.exe.config
+C:\Workspace\QuantTrading\Programs\Debug\DailyPreMarket.exe
+C:\Workspace\QuantTrading\Programs\Debug\DailyPreMarket.pdb
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\DailyPreMarket.csprojResolveAssemblyReference.cache
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\DailyPreMarket.exe
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\DailyPreMarket.pdb

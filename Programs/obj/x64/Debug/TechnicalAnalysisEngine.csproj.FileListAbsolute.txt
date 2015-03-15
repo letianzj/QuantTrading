@@ -1,0 +1,5 @@
+C:\Workspace\QuantTrading\Programs\Debug\TechnicalAnalysisEngine.dll
+C:\Workspace\QuantTrading\Programs\Debug\TechnicalAnalysisEngine.pdb
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\TechnicalAnalysisEngine.csprojResolveAssemblyReference.cache
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\TechnicalAnalysisEngine.dll
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\TechnicalAnalysisEngine.pdb

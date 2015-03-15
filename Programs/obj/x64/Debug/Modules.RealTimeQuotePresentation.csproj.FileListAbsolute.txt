@@ -1,0 +1,14 @@
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Modules.RealTimeQuotePresentation.csprojResolveAssemblyReference.cache
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Views\QuotePlotView.baml
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Views\QuoteGridView.g.cs
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Views\QuotePlotView.g.cs
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Modules.RealTimeQuotePresentation_MarkupCompile.cache
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Modules.RealTimeQuotePresentation_MarkupCompile.lref
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Views\QuoteGridView.baml
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Modules.RealTimeQuotePresentation.g.resources
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Modules.RealTimeQuotePresentation.Properties.Resources.resources
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Modules.RealTimeQuotePresentation.csproj.GenerateResource.Cache
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Modules.RealTimeQuotePresentation.pdb
+C:\Workspace\QuantTrading\Programs\Debug\Modules.RealTimeQuotePresentation.dll
+C:\Workspace\QuantTrading\Programs\Debug\Modules.RealTimeQuotePresentation.pdb
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Modules.RealTimeQuotePresentation.dll

@@ -4,7 +4,7 @@
 library
 C#
 .cs
-C:\QuantTrading\Programs\obj\x64\Debug\
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\
 Modules.RealTimeQuotePresentation
 none
 false
@@ -13,8 +13,8 @@ DEBUG;TRACE
 2129617362
 
 14463656976
-28-1112041095
+281083821672
 Views\QuoteGridView.xaml;Views\QuotePlotView.xaml;
 
-False
+True
 

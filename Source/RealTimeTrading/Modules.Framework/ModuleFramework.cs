@@ -81,7 +81,9 @@ namespace Modules.Framework
         public void Initialize()
         {
             _today = DateTime.Today;
-            _preday = PreviousBusinessDay();
+            // Let IB and GOOG decide previous business day
+            // _preday = PreviousBusinessDay();
+            _preday = _today.AddDays(-1);
 
             _eventAggregator.GetEvent<ApplicationExitEvent>().Subscribe((o) => Dispose(), true);
             _eventAggregator.GetEvent<ConnectDisconnectEvent>().Subscribe(Start);

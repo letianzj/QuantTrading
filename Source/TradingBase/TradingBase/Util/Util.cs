@@ -328,12 +328,12 @@ namespace TradingBase
         public static string EmailFrom { get; set; }
         public static string EmailPass { get; set; }
         public static string EmailTo { get; set; }
-        public static void Sendemail(string subject, string body)
+        public static void Sendemail(string subject, string body, bool useHTML = false)
         {
-            Sendemail(subject, body, null);
+            Sendemail(subject, body, null, useHTML);
         }
 
-        public static void Sendemail(string subject, string body, string attachfilepathname)
+        public static void Sendemail(string subject, string body, string attachfilepathname, bool useHTML=false)
         {
             try
             {
@@ -352,6 +352,7 @@ namespace TradingBase
                     mail.To.Add(s);
                 mail.Subject = subject;
                 mail.Body = body;
+                mail.IsBodyHtml = useHTML;
 
                 if (!string.IsNullOrEmpty(attachfilepathname))
                 {
