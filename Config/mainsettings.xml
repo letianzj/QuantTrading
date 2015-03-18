@@ -17,7 +17,7 @@
   <GmailFrom>yourgmail@gmail.com</GmailFrom>
   <GmailPass>yourgmailpass</GmailPass>
   <EmailTo>youremail@gmail.com</EmailTo>
-  <RunVersion>Debug</RunVersion>
+  <RunVersion>Release</RunVersion>
   <DllName>MyStrategies.dll</DllName>
   <TickQueueCapacity>50000</TickQueueCapacity>
   <DailyOrderCapacity>500</DailyOrderCapacity>
@@ -36,7 +36,6 @@
   <DailyResultPath>\HistData\Daily\</DailyResultPath>
   <Strategies>
 	<string>MyStrategies.DailyCloseEmail</string>
-	<string>MyStrategies.DualTimeFrameMarketOrder</string>
   </Strategies>
   <Holidays>
     <string>20140101</string>

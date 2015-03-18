@@ -1,5 +1,0 @@
-C:\Workspace\QuantTrading\Programs\Debug\HistoricalDataDownloader.exe.config
-C:\Workspace\QuantTrading\Programs\Debug\HistoricalDataDownloader.exe
-C:\Workspace\QuantTrading\Programs\Debug\HistoricalDataDownloader.pdb
-C:\Workspace\QuantTrading\Programs\obj\x64\Debug\HistoricalDataDownloader.exe
-C:\Workspace\QuantTrading\Programs\obj\x64\Debug\HistoricalDataDownloader.pdb

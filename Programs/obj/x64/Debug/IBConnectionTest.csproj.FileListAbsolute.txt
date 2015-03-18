@@ -1,9 +1,0 @@
-C:\Workspace\QuantTrading\Programs\Debug\IBConnectionTest.exe.config
-C:\Workspace\QuantTrading\Programs\Debug\IBConnectionTest.exe
-C:\Workspace\QuantTrading\Programs\Debug\IBConnectionTest.pdb
-C:\Workspace\QuantTrading\Programs\obj\x64\Debug\IBConnectionTest.csprojResolveAssemblyReference.cache
-C:\Workspace\QuantTrading\Programs\obj\x64\Debug\IBConnectionTest.ContractOrderDlg.resources
-C:\Workspace\QuantTrading\Programs\obj\x64\Debug\IBConnectionTest.IBConnectionTestForm.resources
-C:\Workspace\QuantTrading\Programs\obj\x64\Debug\IBConnectionTest.csproj.GenerateResource.Cache
-C:\Workspace\QuantTrading\Programs\obj\x64\Debug\IBConnectionTest.exe
-C:\Workspace\QuantTrading\Programs\obj\x64\Debug\IBConnectionTest.pdb

@@ -1,5 +1,0 @@
-C:\Workspace\QuantTrading\Strategies\Debug\ClassicStrategies.dll
-C:\Workspace\QuantTrading\Strategies\Debug\ClassicStrategies.pdb
-C:\Workspace\QuantTrading\Programs\obj\x64\Debug\ClassicStrategies.csprojResolveAssemblyReference.cache
-C:\Workspace\QuantTrading\Programs\obj\x64\Debug\ClassicStrategies.dll
-C:\Workspace\QuantTrading\Programs\obj\x64\Debug\ClassicStrategies.pdb
