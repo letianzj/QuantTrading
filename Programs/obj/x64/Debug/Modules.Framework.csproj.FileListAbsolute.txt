@@ -1,0 +1,5 @@
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Modules.Framework.csprojResolveAssemblyReference.cache
+C:\Workspace\QuantTrading\Programs\Debug\Modules.Framework.dll
+C:\Workspace\QuantTrading\Programs\Debug\Modules.Framework.pdb
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Modules.Framework.dll
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Modules.Framework.pdb

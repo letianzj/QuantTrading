@@ -16,9 +16,11 @@ You should have received a copy of the GNU General Public License along with Qua
 If not, see http://www.gnu.org/licenses/.
 
 \***************************************************************************/
+using System;
 using Microsoft.Practices.Prism.Events;
 using Microsoft.Practices.Prism.PubSubEvents;
 using TradingBase;
+
 
 namespace Modules.Framework.Events
 {
@@ -40,5 +42,20 @@ namespace Modules.Framework.Events
 
     public class HistBarEvent : PubSubEvent<Bar>
     {
+    }
+
+    [Serializable]
+    public sealed class MyEventArgs<TData> : EventArgs
+    {
+        private readonly TData _value;
+
+        public MyEventArgs(TData value)
+        {
+            _value = value;
+        }
+        public TData Value
+        {
+            get { return _value; }
+        }
     }
 }

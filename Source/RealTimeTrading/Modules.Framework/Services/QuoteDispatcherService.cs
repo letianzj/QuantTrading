@@ -30,6 +30,9 @@ using System.Threading;
 using TradingBase;
 using System.Collections.Concurrent;
 
+using System.Reactive.Linq;
+using System.Reactive;
+
 namespace Modules.Framework.Services
 {
     public class QuoteDispatcherService : IDisposable
@@ -45,6 +48,9 @@ namespace Modules.Framework.Services
         CancellationToken _token;
         Task _dispatcherTask;
         bool _isStarted = false;
+        int sampletime_;
+
+        private Action<MyEventArgs<Tick>> TickReceived;
 
         public QuoteDispatcherService(IQuoteUpdateService quoteviewupdateservvice, IStrategyQuoteFeedService feedstrategyquoteservice, TickArchiver tickarchiveservice, ILoggerFacade logger, BlockingCollection<Tick> tickqueue)
         {
@@ -53,8 +59,19 @@ namespace Modules.Framework.Services
             this._tickarchiveservice = tickarchiveservice;
             this._tickqueue = tickqueue;
             this._logger = logger;
+            ConfigManager conf = Microsoft.Practices.ServiceLocation.ServiceLocator.Current.GetInstance<IConfigManager>() as ConfigManager;
+            sampletime_ = conf.TickSampleTime;
 
-
+            IObservable<MyEventArgs<Tick>> tickObservable = System.Reactive.Linq.Observable.FromEvent<MyEventArgs<Tick>>(
+                        h => TickReceived += h, h => TickReceived -= h);
+            
+            // only select trade
+            // .BufferWithTime(TimeSpan.FromMilliseconds(_od))
+            // .Where(x => x.Count > 0)
+            // .Subscribe(DataReceived, LogError);
+            tickObservable.Where(e => e.Value.IsTrade).GroupBy(e => e.Value.FullSymbol)
+                .Subscribe(group => group.Sample(TimeSpan.FromSeconds(sampletime_))
+                    .Subscribe(QuoteDispatcher));
         }
 
         public void Start()
@@ -94,15 +111,24 @@ namespace Modules.Framework.Services
                     break;
                 }
 
-                //********************  quote dispatcher **************//
+                //****************** Trigger event, which calls quote dispatcher **************//
                 Tick k = _tickqueue.Take();
-                // 1. strategies
-                _feedstrategyquoteservice.FeedStrategies(k);
-                // 2. tick archive
-                _tickarchiveservice.newTick(k);
-                // 3. Views
-                _quoteviewupdateservice.UpdateViews(k);
+                TickReceived(new MyEventArgs<Tick>(k));         // fire event
             }
+        }
+
+        /// <summary>
+        /// Quote Dispatcher
+        /// </summary>
+        /// <param name="e"></param>
+        private void QuoteDispatcher(MyEventArgs<Tick> e)
+        {
+            // 1. strategies
+            _feedstrategyquoteservice.FeedStrategies(e.Value);
+            // 2. tick archive
+            _tickarchiveservice.newTick(e.Value);
+            // 3. Views
+            _quoteviewupdateservice.UpdateViews(e.Value);
         }
     }
 }

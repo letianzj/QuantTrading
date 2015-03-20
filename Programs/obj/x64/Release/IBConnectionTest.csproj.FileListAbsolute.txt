@@ -1,0 +1,7 @@
+C:\Workspace\QuantTrading\Programs\Release\IBConnectionTest.exe.config
+C:\Workspace\QuantTrading\Programs\Release\IBConnectionTest.exe
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBConnectionTest.csprojResolveAssemblyReference.cache
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBConnectionTest.ContractOrderDlg.resources
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBConnectionTest.IBConnectionTestForm.resources
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBConnectionTest.csproj.GenerateResource.Cache
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBConnectionTest.exe

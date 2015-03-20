@@ -1,0 +1,11 @@
+C:\Workspace\QuantTrading\Programs\Release\Modules.OrderAndPositions.dll
+C:\Workspace\QuantTrading\Programs\Release\Modules.OrderAndPositions.pdb
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.OrderAndPositions.csprojResolveAssemblyReference.cache
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\View\OrderAndPositionView.baml
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\View\OrderAndPositionView.g.cs
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.OrderAndPositions_MarkupCompile.cache
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.OrderAndPositions.g.resources
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.OrderAndPositions.Properties.Resources.resources
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.OrderAndPositions.csproj.GenerateResource.Cache
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.OrderAndPositions.dll
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.OrderAndPositions.pdb

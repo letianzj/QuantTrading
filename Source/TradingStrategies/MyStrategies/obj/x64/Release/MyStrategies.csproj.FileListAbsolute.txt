@@ -7,3 +7,4 @@ C:\Workspace\QuantTrading\Strategies\Release\MyStrategies.dll
 C:\Workspace\QuantTrading\Strategies\Release\MyStrategies.pdb
 C:\Workspace\QuantTrading\Source\TradingStrategies\MyStrategies\obj\x64\Release\MyStrategies.dll
 C:\Workspace\QuantTrading\Source\TradingStrategies\MyStrategies\obj\x64\Release\MyStrategies.pdb
+C:\Workspace\QuantTrading\Source\TradingStrategies\MyStrategies\obj\x64\Release\MyStrategies.csprojResolveAssemblyReference.cache

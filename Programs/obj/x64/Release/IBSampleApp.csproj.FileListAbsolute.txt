@@ -1,0 +1,12 @@
+C:\Workspace\QuantTrading\Programs\Release\IBSampleApp.exe.config
+C:\Workspace\QuantTrading\Programs\Release\IBSampleApp.exe
+C:\Workspace\QuantTrading\Programs\Release\IBSampleApp.pdb
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBSampleApp.csprojResolveAssemblyReference.cache
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBSampleApp.ui.ComboContractResults.resources
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBSampleApp.IBSampleApp.resources
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBSampleApp.Properties.Resources.resources
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBSampleApp.ui.MarginDialog.resources
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBSampleApp.OrderDialog.resources
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBSampleApp.csproj.GenerateResource.Cache
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBSampleApp.exe
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\IBSampleApp.pdb

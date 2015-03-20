@@ -1,0 +1,6 @@
+C:\Workspace\QuantTrading\Programs\Debug\IBSamples.exe.config
+C:\Workspace\QuantTrading\Programs\Debug\IBSamples.exe
+C:\Workspace\QuantTrading\Programs\Debug\IBSamples.pdb
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\IBSamples.csprojResolveAssemblyReference.cache
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\IBSamples.exe
+C:\Workspace\QuantTrading\Programs\obj\x64\Debug\IBSamples.pdb

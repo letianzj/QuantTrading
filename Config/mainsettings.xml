@@ -20,6 +20,7 @@
   <RunVersion>Release</RunVersion>
   <DllName>MyStrategies.dll</DllName>
   <TickQueueCapacity>50000</TickQueueCapacity>
+  <TickSampleTime>60</TickSampleTime>
   <DailyOrderCapacity>500</DailyOrderCapacity>
   <EnableOversellProtect>true</EnableOversellProtect>
   <OversellSplitInsteadofRoundDown>true</OversellSplitInsteadofRoundDown>
