@@ -101,7 +101,7 @@ namespace TradingBase
             // add to fills
             _fills[f.Id] += f.TradeSize;
             
-            Debug(f.FullSymbol + " filled size: " + _fills[f.Id] + " after: " + f.ToString());
+            Debug(f.FullSymbol + " filled size: " + _fills[f.Id] + " ; on trade detail: " + f.ToString());
         }
 
         #region properties

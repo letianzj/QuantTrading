@@ -1,0 +1,53 @@
+2015-03-23 07:04:50,222 [1] DEBUG QTShell.Log4NetLoggerAdapter Logger was created successfully.
+2015-03-23 07:04:50,248 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating module catalog.
+2015-03-23 07:04:50,276 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring module catalog.
+2015-03-23 07:04:50,341 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating Unity container.
+2015-03-23 07:04:50,598 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring the Unity container.
+2015-03-23 07:04:50,648 [1] DEBUG QTShell.Log4NetLoggerAdapter Adding UnityBootstrapperExtension to container.
+2015-03-23 07:04:51,650 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring ServiceLocator singleton.
+2015-03-23 07:04:51,650 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring region adapters.
+2015-03-23 07:04:51,704 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring default region behaviors.
+2015-03-23 07:04:51,706 [1] DEBUG QTShell.Log4NetLoggerAdapter Registering Framework Exception Types.
+2015-03-23 07:04:51,709 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating the shell.
+2015-03-23 07:04:52,360 [1] DEBUG QTShell.Log4NetLoggerAdapter Setting the RegionManager.
+2015-03-23 07:04:52,363 [1] DEBUG QTShell.Log4NetLoggerAdapter Updating Regions.
+2015-03-23 07:04:52,587 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing the shell.
+2015-03-23 07:04:53,631 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing modules.
+2015-03-23 07:04:54,792 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderAndPositions Loaded
+2015-03-23 07:04:55,325 [1] INFO  QTShell.Log4NetLoggerAdapter Module RealTimeQuoteGrid Loaded
+2015-03-23 07:04:55,545 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleStrategyManager Loaded
+2015-03-23 07:04:56,043 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderTicket Loaded
+2015-03-23 07:04:56,451 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleFramework Loaded
+2015-03-23 07:04:56,549 [1] INFO  QTShell.Log4NetLoggerAdapter Server Version: 71
+2015-03-23 07:04:56,549 [8] INFO  QTShell.Log4NetLoggerAdapter Account: U1422506
+2015-03-23 07:04:56,551 [8] INFO  QTShell.Log4NetLoggerAdapter Next Valid Order Id: 1
+2015-03-23 07:04:56,553 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfuture
+2015-03-23 07:04:56,553 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm
+2015-03-23 07:04:56,553 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:ilhmds
+2015-03-23 07:04:56,553 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:fundfarm
+2015-03-23 07:04:59,635 [1] DEBUG QTShell.Log4NetLoggerAdapter Bootstrapper sequence completed.
+2015-03-23 07:05:10,023 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:ushmds
+2015-03-23 07:05:11,850 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2015-03-23 07:05:29,430 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 07:05:29,431 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 07:23:32,264 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2015-03-23 07:23:33,370 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 07:23:33,370 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 07:23:34,335 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2015-03-23 07:23:34,371 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 07:23:34,371 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 07:23:37,150 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2015-03-23 07:23:42,842 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 07:23:42,842 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 07:23:51,340 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2015-03-23 07:23:53,862 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 07:23:53,862 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 07:23:56,605 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2015-03-23 07:23:58,466 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 07:23:58,466 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 07:36:14,758 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2015-03-23 07:36:21,282 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 07:36:21,288 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 10:01:03,937 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm.us
+2015-03-23 10:02:43,113 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us
+2015-03-23 10:02:43,113 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2108; Error Message = Market data farm connection is inactive but should be available upon demand.usfarm.us

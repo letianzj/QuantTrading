@@ -116,6 +116,7 @@
     <Compile Include="Util\IConfigManager.cs" />
     <Compile Include="Util\IdTracker.cs" />
     <Compile Include="Util\Log.cs" />
+    <Compile Include="Util\OffsetInfo.cs" />
     <Compile Include="Util\OversellProtector.cs" />
     <Compile Include="Util\Util.cs" />
   </ItemGroup>

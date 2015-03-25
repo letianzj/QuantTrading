@@ -3,7 +3,6 @@ C:\Workspace\QuantTrading\Programs\Release\Modules.StrategyManager.pdb
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.StrategyManager.csprojResolveAssemblyReference.cache
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\View\StrategyGridView.baml
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\View\StrategyGridView.g.cs
-C:\Workspace\QuantTrading\Programs\obj\x64\Release\GeneratedInternalTypeHelper.g.cs
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.StrategyManager_MarkupCompile.cache
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.StrategyManager.g.resources
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.StrategyManager.Properties.Resources.resources

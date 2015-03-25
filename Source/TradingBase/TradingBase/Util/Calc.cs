@@ -327,6 +327,101 @@ namespace TradingBase
         }
         #endregion
 
+        #region OffsetInfo
+        /// <summary>
+        /// Provides an offsetting price from a position.
+        /// For profit taking
+        /// </summary>
+        /// <param name="p">Position</param>
+        /// <param name="offset">Offset amount</param>
+        /// <returns>Offset price</returns>
+        public static decimal OffsetPrice(Position p, decimal offset) { return OffsetPrice(p.AvgPrice, p.isLong, offset); }
+        public static decimal OffsetPrice(decimal AvgPrice, bool side, decimal offset)
+        {
+            return side ? AvgPrice + offset : AvgPrice - offset;
+        }
+        /// <summary>
+        /// Defaults to 100% of position at target.
+        /// </summary>
+        /// <param name="p">your position</param>
+        /// <param name="offset">your target</param>
+        /// <returns>profit taking limit order</returns>
+        public static Order PositionProfit(Position p, decimal offset) { return PositionProfit(p, offset, 1, false, 1); }
+        /// <summary>
+        /// Generates profit taking order for a given position, at a specified per-share profit target.  
+        /// </summary>
+        /// <param name="p">your position</param>
+        /// <param name="offset">target price, per share/contract</param>
+        /// <param name="percent">percent of the position to close with this order</param>
+        /// <returns></returns>
+        public static Order PositionProfit(Position p, decimal offset, decimal percent) { return PositionProfit(p, offset, percent, false, 1); }
+        /// <summary>
+        /// Generates profit taking order for a given position, at a specified per-share profit target.  
+        /// </summary>
+        /// <param name="p">your position</param>
+        /// <param name="offset">target price, per share/contract</param>
+        /// <param name="percent">percent of the position to close with this order</param>
+        /// <param name="normalizesize">whether to normalize order to be an even-lot trade</param>
+        /// <param name="MINSIZE">size of an even lot</param>
+        /// <returns></returns>
+        public static Order PositionProfit(Position p, decimal offset, decimal percent, bool normalizesize, int MINSIZE)
+        {
+            Order o = new Order();
+            if (!p.isValid || p.isFlat) return o;
+            decimal price = Calc.OffsetPrice(p, offset);
+            int size = percent == 0 ? 0 : (!normalizesize ? (int)(p.FlatSize * percent) : Calc.Norm2Min(p.FlatSize * percent, MINSIZE));
+            o = new LimitOrder(p.FullSymbol, p.isLong ? -size : size, price);
+            return o;
+        }
+        /// <summary>
+        /// get profit order for given position given offset information
+        /// </summary>
+        /// <param name="p"></param>
+        /// <param name="offset"></param>
+        /// <returns></returns>
+        public static Order PositionProfit(Position p, OffsetInfo offset) { return PositionProfit(p, offset.ProfitDist, offset.ProfitPercent, offset.NormalizeSize, offset.MinimumLotSize); }
+        /// <summary>
+        /// Generate a stop order for a position, at a specified per-share/contract price.  Defaults to 100% of position.
+        /// </summary>
+        /// <param name="p">your position</param>
+        /// <param name="offset">how far away stop is</param>
+        /// <returns></returns>
+        public static Order PositionStop(Position p, decimal offset) { return PositionStop(p, offset, 1, false, 1); }
+        /// <summary>
+        /// Generate a stop order for a position, at a specified per-share/contract price
+        /// </summary>
+        /// <param name="p">your position</param>
+        /// <param name="offset">how far away stop is</param>
+        /// <param name="percent">what percent of position to close</param>
+        /// <returns></returns>
+        public static Order PositionStop(Position p, decimal offset, decimal percent) { return PositionStop(p, offset, percent, false, 1); }
+        /// <summary>
+        /// Generate a stop order for a position, at a specified per-share/contract price
+        /// </summary>
+        /// <param name="p">your position</param>
+        /// <param name="offset">how far away stop is</param>
+        /// <param name="percent">what percent of position to close</param>
+        /// <param name="normalizesize">whether to normalize size to even-lots</param>
+        /// <param name="MINSIZE">size of an even lot</param>
+        /// <returns></returns>
+        public static Order PositionStop(Position p, decimal offset, decimal percent, bool normalizesize, int MINSIZE)
+        {
+            Order o = new Order();
+            if (!p.isValid || p.isFlat) return o;
+            decimal price = Calc.OffsetPrice(p, offset * -1);
+            int size = percent == 0 ? 0 : (!normalizesize ? (int)(p.FlatSize * percent) : Calc.Norm2Min(p.FlatSize * percent, MINSIZE));
+            o = new StopOrder(p.FullSymbol, p.isLong ? -size : size, price);
+            return o;
+        }
+        /// <summary>
+        /// get a stop order for a position given offset information
+        /// </summary>
+        /// <param name="p"></param>
+        /// <param name="offset"></param>
+        /// <returns></returns>
+        public static Order PositionStop(Position p, OffsetInfo offset) { return PositionStop(p, offset.StopDist, offset.StopPercent, offset.NormalizeSize, offset.MinimumLotSize); }
+        #endregion
+
         #region other
         /// <summary>
         /// Normalizes any order size to the minimum lot size specified by MinSize.

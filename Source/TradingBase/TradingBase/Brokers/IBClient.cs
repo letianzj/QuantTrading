@@ -330,7 +330,7 @@ namespace TradingBase
             order.AuxPrice = o.IsTrail ? (double)o.TrailPrice : (double)o.StopPrice;
             order.LmtPrice = (double)o.LimitPrice;
 
-            // Only Market, Limit, Stop, and Limit Stop are supported
+            // Only MKT, LMT, STP, and STP LMT, TRAIL, TRAIL LIMIT are supported
             order.OrderType = o.OrderType;
 
             order.TotalQuantity = o.UnsignedSize;
@@ -349,7 +349,7 @@ namespace TradingBase
             // Set up IB order Id
             if (o.Id == 0)
             {
-                throw new ArgumentOutOfRangeException("Order id is mssing.");
+                throw new ArgumentOutOfRangeException("Order id is missing.");
             }
             else // TODO: elimitate situation where strategy Order Id already exists
             {
@@ -566,9 +566,10 @@ namespace TradingBase
             // o.Exchange = contract.Exchange;
             // o.Security = (SecurityType)EnumDescConverter.GetEnumValue(typeof(SecurityType), contract.SecType);
             o.FullSymbol = ContractToSecurityFullName(contract);
-            
-            o.LimitPrice = (order.OrderType == "LMT") ? (decimal)order.LmtPrice : 0m;
-            o.StopPrice = (order.OrderType == "STP") ? (decimal)order.AuxPrice : 0m;
+
+            o.TrailPrice = ((order.OrderType == "TRAIL") || (order.OrderType == "TRAIL LIMIT")) ? (decimal)order.AuxPrice : 0m;
+            o.StopPrice = ((order.OrderType == "STP") || (order.OrderType == "STP LMT")) ? (decimal)order.AuxPrice : 0m;
+            o.LimitPrice = ((order.OrderType == "LMT") || (order.OrderType == "TRAIL LIMIT") || (order.OrderType == "STP LMT")) ? (decimal)order.LmtPrice : 0m;
 
             o.Currency = contract.Currency;
             // o.Currency = (CurrencyType)EnumDescConverter.GetEnumValue(typeof(CurrencyType), contract.Currency);
@@ -576,7 +577,7 @@ namespace TradingBase
             // o.TIF = order.Tif;           // Todo: add Tif
 
             o.OrderDate = Util.ToIntDate(DateTime.Now);
-            o.OrderTime = Util.ToIntDate(DateTime.Now);
+            o.OrderTime = Util.ToIntTime(DateTime.Now);
 
             if (contract.SecType != "BAG")
             {

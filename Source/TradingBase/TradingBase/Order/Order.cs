@@ -45,8 +45,9 @@ namespace TradingBase
             get {
                 return (IsStop && IsLimit) ? "STP LMT"
                 : (IsStop ? "STP"
+                : ((IsTrail && IsLimit) ? "TRAIL LIMIT"
                 : (IsLimit ? "LMT"
-                : (IsTrail ? "TRAIL" : "MKT")));
+                : (IsTrail ? "TRAIL" : "MKT"))));
             } 
         }
 
@@ -352,6 +353,26 @@ namespace TradingBase
         public StopLimitOrder(string sym, int size, decimal price, decimal stop) : this(sym, size, price, stop, 0) { }
         public StopLimitOrder(string sym, int size, decimal price, decimal stop, long orderid) : base(sym, size, orderid, price, stop, 0) { }
        
+    }
+
+    /// <summary>
+    /// Create trailing stop order (TRAIL)
+    /// </summary>
+    public class TrailingStopOrder : Order
+    {
+        public TrailingStopOrder(string sym, int size, decimal trailing) : this(sym, size, trailing, 0) { }
+        public TrailingStopOrder(string sym, int size, decimal trailing, long orderid) : base(sym, size, orderid, 0m, 0m, trailing) { }
+
+    }
+
+    /// <summary>
+    /// Create trailing stop limit order (TRAIL LIMIT)
+    /// </summary>
+    public class TrailingStopLimitOrder : Order
+    {
+        public TrailingStopLimitOrder(string sym, int size, decimal limit, decimal trailing) : this(sym, size, limit, trailing, 0) { }
+        public TrailingStopLimitOrder(string sym, int size, decimal limit, decimal trailing, long orderid) : base(sym, size, orderid, limit, 0m, trailing) { }
+
     }
     #endregion
 }

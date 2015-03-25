@@ -57,7 +57,7 @@ namespace TradingBase
             DllName = "ClassicStrategies.dll";
 
             TickQueueCapacity = 50000;
-            TickSampleTime = 60;
+            TickSampleTime = 10;
             DailyOrderCapacity = 500;
             EnableOversellProtect = true;
             OversellSplitInsteadofRoundDown = true;

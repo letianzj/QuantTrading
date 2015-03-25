@@ -20,7 +20,7 @@
   <RunVersion>Release</RunVersion>
   <DllName>MyStrategies.dll</DllName>
   <TickQueueCapacity>50000</TickQueueCapacity>
-  <TickSampleTime>60</TickSampleTime>
+  <TickSampleTime>10</TickSampleTime>
   <DailyOrderCapacity>500</DailyOrderCapacity>
   <EnableOversellProtect>true</EnableOversellProtect>
   <OversellSplitInsteadofRoundDown>true</OversellSplitInsteadofRoundDown>
@@ -37,6 +37,7 @@
   <DailyResultPath>\HistData\Daily\</DailyResultPath>
   <Strategies>
 	<string>MyStrategies.DailyCloseEmail</string>
+	<string>MyStrategies.DualTimeFrameMarketOrder</string>
   </Strategies>
   <Holidays>
     <string>20140101</string>

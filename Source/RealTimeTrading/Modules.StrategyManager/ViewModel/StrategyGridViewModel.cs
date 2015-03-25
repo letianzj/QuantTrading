@@ -82,7 +82,7 @@ namespace Modules.StrategyManager.ViewModel
                 r.ID = _globalIdService.GetNextStrategyId();
                 r.Reset();
                 BindStrategy(ref r);
-                r.SetIdTracker(_globalIdService);
+                r.SetIdTracker(_globalIdService);           // Set Ordr ID tracker
                 r.IsActive = false;
 
                 StrategyItem sr = new StrategyItem(r);
@@ -145,7 +145,8 @@ namespace Modules.StrategyManager.ViewModel
                 throw (new Exception("Order is missing underlying fullsymbol"));
 
             // assign order id before send out
-            o.Id = _globalIdService.GetNextOrderId();
+            if (o.Id == 0)
+                o.Id = _globalIdService.GetNextOrderId();
             // send order and get error message
             try
             {

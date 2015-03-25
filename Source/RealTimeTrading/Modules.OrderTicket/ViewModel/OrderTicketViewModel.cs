@@ -112,6 +112,16 @@ namespace Modules.OrderTicket.ViewModel
             }
         }
 
+        decimal _auxprice;
+        public decimal AuxPrice
+        {
+            get { return _auxprice; }
+            set
+            {
+                SetProperty(ref _auxprice, value);
+            }
+        }
+
         int _size;
         public int Size
         {
@@ -172,6 +182,15 @@ namespace Modules.OrderTicket.ViewModel
                     _workingorder = new StopOrder(_fullsymbol, _selectedbuysell == 0 ? _size : -_size, _price, _globalIdService.GetNextOrderId());
                     //_workingorder.StopPrice = _price;
                     //_workingorder.LimitPrice = 0;
+                    break;
+                case 3:
+                    _workingorder = new StopLimitOrder(_fullsymbol, _selectedbuysell == 0 ? _size : -_size, _price, _auxprice,_globalIdService.GetNextOrderId());
+                    break;
+                case 4:
+                    _workingorder = new TrailingStopOrder(_fullsymbol, _selectedbuysell == 0 ? _size : -_size, _auxprice, _globalIdService.GetNextOrderId());
+                    break;
+                case 5:
+                    _workingorder = new TrailingStopLimitOrder(_fullsymbol, _selectedbuysell == 0 ? _size : -_size, _price, _auxprice, _globalIdService.GetNextOrderId());
                     break;
             }
 

@@ -103,7 +103,7 @@ namespace Modules.OrderAndPositions.ViewModel
             {
                 if (pos == -1)      // not found
                 {
-                    OnDebug("Order id " + o.Id.ToString() + " is not found in order table");
+                    OnDebug("Order id " + o.Id.ToString() + " is not found in order table; possibly new order.");
                     // it must be previous open order, or placed by tws
                     // add to _ordertracker
                     _ordertracker.GotOrder(o);
@@ -125,7 +125,7 @@ namespace Modules.OrderAndPositions.ViewModel
             {
                 if (pos == -1)
                 {
-                    OnDebug("Order id " + oid.ToString() + " is not found in order table");
+                    OnDebug("Order id " + oid.ToString() + " is not found in order table; possibly new order.");
                 }
                 else
                 {
@@ -147,7 +147,7 @@ namespace Modules.OrderAndPositions.ViewModel
                 int pos = OrderTable.Select(row => row.OrderId).ToList().IndexOf(k.Id);
                 if (pos == -1)
                 {
-                    OnDebug("Order id " + k.Id.ToString() + " is not found in order table");
+                    OnDebug("Order id " + k.Id.ToString() + " is not found in order table; possibly new order.");
                 }
                 else
                 {

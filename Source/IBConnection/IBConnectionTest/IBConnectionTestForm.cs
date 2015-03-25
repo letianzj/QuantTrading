@@ -174,7 +174,9 @@ namespace IBConnectionTest
 
                 requestId = Int32.Parse(orderDlg.tbRequestId.Text, CultureInfo.InvariantCulture);
 
-                ibClient.reqMktData(requestId, contract, null, false);
+                string genericTicklist = null;
+                bool snapshot = false;
+                ibClient.reqMktData(requestId, contract, genericTicklist, snapshot);
             }
 
             
