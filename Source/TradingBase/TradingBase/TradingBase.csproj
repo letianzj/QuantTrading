@@ -88,9 +88,12 @@
     <Compile Include="Order\OrderTracker.cs" />
     <Compile Include="Order\OrderType.cs" />
     <Compile Include="Order\TimeInForce.cs" />
+    <Compile Include="Order\TrailTracker.cs" />
     <Compile Include="PerformanceAnalysis\PerformanceEvaluator.cs" />
     <Compile Include="PerformanceAnalysis\PerformanceMatrix.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rss\Rss.cs" />
+    <Compile Include="Rss\RssManager.cs" />
     <Compile Include="Security\Basket.cs" />
     <Compile Include="Security\Portfolio.cs" />
     <Compile Include="Security\Position.cs" />
@@ -117,6 +120,7 @@
     <Compile Include="Util\IdTracker.cs" />
     <Compile Include="Util\Log.cs" />
     <Compile Include="Util\OffsetInfo.cs" />
+    <Compile Include="Util\OffsetTracker.cs" />
     <Compile Include="Util\OversellProtector.cs" />
     <Compile Include="Util\Util.cs" />
   </ItemGroup>

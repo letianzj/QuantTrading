@@ -35,6 +35,10 @@ using TradingBase;
 
 namespace Modules.StrategyManager.ViewModel
 {
+    /// <summary>
+    /// StrategyGridViewModel doesn't track the registration of strategies,
+    /// so each strategy should track its security of interest and orders it placed.
+    /// </summary>
     public class StrategyGridViewModel : BindableBase
     {
         GlobalIdService _globalIdService;

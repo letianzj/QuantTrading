@@ -1,6 +1,3 @@
-C:\Workspace\QuantTrading\Programs\Debug\QTShell.exe.config
-C:\Workspace\QuantTrading\Programs\Debug\QTShell.exe
-C:\Workspace\QuantTrading\Programs\Debug\QTShell.pdb
 C:\Workspace\QuantTrading\Programs\obj\x64\Debug\QTShell.csprojResolveAssemblyReference.cache
 C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Resources\Controls\ButtonStyles.baml
 C:\Workspace\QuantTrading\Programs\obj\x64\Debug\Resources\Controls\ComboBoxStyles.baml
@@ -23,5 +20,8 @@ C:\Workspace\QuantTrading\Programs\obj\x64\Debug\QTShell_MarkupCompile.cache
 C:\Workspace\QuantTrading\Programs\obj\x64\Debug\QTShell.g.resources
 C:\Workspace\QuantTrading\Programs\obj\x64\Debug\QTShell.Properties.Resources.resources
 C:\Workspace\QuantTrading\Programs\obj\x64\Debug\QTShell.csproj.GenerateResource.Cache
+C:\Workspace\QuantTrading\Programs\Debug\QTShell.exe.config
+C:\Workspace\QuantTrading\Programs\Debug\QTShell.exe
+C:\Workspace\QuantTrading\Programs\Debug\QTShell.pdb
 C:\Workspace\QuantTrading\Programs\obj\x64\Debug\QTShell.exe
 C:\Workspace\QuantTrading\Programs\obj\x64\Debug\QTShell.pdb

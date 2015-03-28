@@ -16,5 +16,5 @@ DEBUG;TRACE
 281083821672
 Views\QuoteGridView.xaml;Views\QuotePlotView.xaml;
 
-True
+False
 

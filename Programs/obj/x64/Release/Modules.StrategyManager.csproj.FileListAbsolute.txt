@@ -1,6 +1,5 @@
 C:\Workspace\QuantTrading\Programs\Release\Modules.StrategyManager.dll
 C:\Workspace\QuantTrading\Programs\Release\Modules.StrategyManager.pdb
-C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.StrategyManager.csprojResolveAssemblyReference.cache
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\View\StrategyGridView.baml
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\View\StrategyGridView.g.cs
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.StrategyManager_MarkupCompile.cache
@@ -9,3 +8,4 @@ C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.StrategyManager.Prope
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.StrategyManager.csproj.GenerateResource.Cache
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.StrategyManager.dll
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.StrategyManager.pdb
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.StrategyManager.csprojResolveAssemblyReference.cache

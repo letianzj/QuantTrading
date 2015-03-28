@@ -268,6 +268,16 @@ namespace TradingBase
             return Serialize(this);
         }
 
+        /// <summary>
+        /// A place holder. Decimals is not used at this time.
+        /// </summary>
+        /// <param name="decimals"></param>
+        /// <returns></returns>
+        public string ToString(int decimals)
+        {
+            return Serialize(this);
+        }
+
         public static string Serialize(Order o)
         {
             if (o.IsFilled) return Trade.Serialize((Trade)o);
@@ -325,6 +335,10 @@ namespace TradingBase
     {
         public MarketOrderFlat(Position p) : this(p, 0) { }
         public MarketOrderFlat(Position p, long id) : base(p.FullSymbol, p.FlatSize, id) { }
+        public MarketOrderFlat(Position p, decimal percent, bool normalizeSize, int MinimumLotSize) :
+            this(p, percent, normalizeSize, MinimumLotSize, 0) { }
+        public MarketOrderFlat(Position p, decimal percent, bool normalizeSize, int MinimumLotSize, long id) :
+            base(p.FullSymbol, normalizeSize ? Calc.Norm2Min((decimal)percent * p.FlatSize, MinimumLotSize) : (int)(percent * p.FlatSize), id) { }
     }
 
     /// <summary>
@@ -367,6 +381,7 @@ namespace TradingBase
 
     /// <summary>
     /// Create trailing stop limit order (TRAIL LIMIT)
+    /// Somehow this order type doesn't work
     /// </summary>
     public class TrailingStopLimitOrder : Order
     {

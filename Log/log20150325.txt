@@ -1,0 +1,97 @@
+2015-03-25 07:46:51,260 [1] DEBUG QTShell.Log4NetLoggerAdapter Logger was created successfully.
+2015-03-25 07:46:51,292 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating module catalog.
+2015-03-25 07:46:51,307 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring module catalog.
+2015-03-25 07:46:51,338 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating Unity container.
+2015-03-25 07:46:51,463 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring the Unity container.
+2015-03-25 07:46:51,526 [1] DEBUG QTShell.Log4NetLoggerAdapter Adding UnityBootstrapperExtension to container.
+2015-03-25 07:46:51,884 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring ServiceLocator singleton.
+2015-03-25 07:46:51,884 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring region adapters.
+2015-03-25 07:46:51,916 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring default region behaviors.
+2015-03-25 07:46:51,916 [1] DEBUG QTShell.Log4NetLoggerAdapter Registering Framework Exception Types.
+2015-03-25 07:46:51,931 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating the shell.
+2015-03-25 07:46:52,056 [1] DEBUG QTShell.Log4NetLoggerAdapter Setting the RegionManager.
+2015-03-25 07:46:52,072 [1] DEBUG QTShell.Log4NetLoggerAdapter Updating Regions.
+2015-03-25 07:46:52,150 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing the shell.
+2015-03-25 07:46:52,711 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing modules.
+2015-03-25 07:46:52,914 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderAndPositions Loaded
+2015-03-25 07:46:53,117 [1] INFO  QTShell.Log4NetLoggerAdapter Module RealTimeQuoteGrid Loaded
+2015-03-25 07:46:53,226 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleStrategyManager Loaded
+2015-03-25 07:46:53,460 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderTicket Loaded
+2015-03-25 07:46:53,632 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleFramework Loaded
+2015-03-25 07:46:53,694 [8] INFO  QTShell.Log4NetLoggerAdapter Account: DU206863
+2015-03-25 07:46:53,694 [1] INFO  QTShell.Log4NetLoggerAdapter Server Version: 71
+2015-03-25 07:46:53,694 [8] INFO  QTShell.Log4NetLoggerAdapter Next Valid Order Id: 45
+2015-03-25 07:46:53,694 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfuture
+2015-03-25 07:46:53,694 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm
+2015-03-25 07:46:53,694 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:ilhmds
+2015-03-25 07:46:53,694 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:ushmds
+2015-03-25 07:46:56,752 [1] DEBUG QTShell.Log4NetLoggerAdapter Bootstrapper sequence completed.
+2015-03-25 09:45:32,924 [9] INFO  QTShell.Log4NetLoggerAdapter Shutting down ESM5 FUT GLOBEX 50
+2015-03-25 09:45:32,934 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 45, ESM5 FUT GLOBEX 50
+2015-03-25 09:45:33,033 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = 45; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2015-03-25 09:45:33,118 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 45
+2015-03-25 09:45:33,137 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 45 is not found in order table; possibly new order.
+2015-03-25 09:45:33,137 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 45, ESM5 FUT GLOBEX 50
+2015-03-25 09:45:33,158 [8] INFO  QTShell.Log4NetLoggerAdapter ESM5 FUT GLOBEX 50 filled size: -1 ; on trade detail: 45,DU206863,20150325,94607,ESM5 FUT GLOBEX 50,-1,2080.50
+2015-03-25 09:45:33,165 [1] INFO  QTShell.Log4NetLoggerAdapter ESM5 FUT GLOBEX 50 filled size: -1 ; on trade detail: 45,DU206863,20150325,94607,ESM5 FUT GLOBEX 50,-1,2080.50
+2015-03-25 10:10:04,154 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 46, NQM5 FUT GLOBEX 20
+2015-03-25 10:10:04,156 [9] INFO  QTShell.Log4NetLoggerAdapter rid=2, name=MyStrategies.DualTimeFrameMarketOrder, indicator=Time: 101003, RSI_Hi_Fast:25.23, RSI_Hi_Slow:20.18, RSI_Low_Fast:50.58, RSI_Low_Slow:41.99
+2015-03-25 10:10:04,216 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 46
+2015-03-25 10:10:04,216 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 46 is not found in order table; possibly new order.
+2015-03-25 10:10:04,216 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 46, NQM5 FUT GLOBEX 20
+2015-03-25 10:10:12,998 [8] INFO  QTShell.Log4NetLoggerAdapter NQM5 FUT GLOBEX 20 filled size: 1 ; on trade detail: 46,DU206863,20150325,101047,NQM5 FUT GLOBEX 20,1,4404.25
+2015-03-25 10:10:12,998 [1] INFO  QTShell.Log4NetLoggerAdapter NQM5 FUT GLOBEX 20 filled size: 1 ; on trade detail: 46,DU206863,20150325,101047,NQM5 FUT GLOBEX 20,1,4404.25
+2015-03-25 10:30:05,171 [7] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 47, NQM5 FUT GLOBEX 20
+2015-03-25 10:30:05,205 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = 47; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2015-03-25 10:30:05,230 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 47
+2015-03-25 10:30:05,230 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 47 is not found in order table; possibly new order.
+2015-03-25 10:30:05,230 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 47, NQM5 FUT GLOBEX 20
+2015-03-25 10:30:05,230 [8] INFO  QTShell.Log4NetLoggerAdapter NQM5 FUT GLOBEX 20 filled size: -1 ; on trade detail: 47,DU206863,20150325,103040,NQM5 FUT GLOBEX 20,-1,4409.75
+2015-03-25 10:30:05,238 [1] INFO  QTShell.Log4NetLoggerAdapter NQM5 FUT GLOBEX 20 filled size: -1 ; on trade detail: 47,DU206863,20150325,103040,NQM5 FUT GLOBEX 20,-1,4409.75
+2015-03-25 10:31:05,217 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 48, NQM5 FUT GLOBEX 20
+2015-03-25 10:31:05,217 [9] INFO  QTShell.Log4NetLoggerAdapter rid=2, name=MyStrategies.DualTimeFrameMarketOrder, indicator=Time: 103105, RSI_Hi_Fast:36.30, RSI_Hi_Slow:28.79, RSI_Low_Fast:56.85, RSI_Low_Slow:56.16
+2015-03-25 10:31:05,400 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 48
+2015-03-25 10:31:05,400 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 48 is not found in order table; possibly new order.
+2015-03-25 10:31:05,400 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 48, NQM5 FUT GLOBEX 20
+2015-03-25 10:33:05,390 [8] INFO  QTShell.Log4NetLoggerAdapter Order canceled: 48
+2015-03-25 10:50:06,176 [13] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 49, NQM5 FUT GLOBEX 20
+2015-03-25 10:50:06,176 [13] INFO  QTShell.Log4NetLoggerAdapter rid=2, name=MyStrategies.DualTimeFrameMarketOrder, indicator=Time: 105005, RSI_Hi_Fast:28.61, RSI_Hi_Slow:24.43, RSI_Low_Fast:38.33, RSI_Low_Slow:37.40
+2015-03-25 10:50:06,239 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 49
+2015-03-25 10:50:06,239 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 49 is not found in order table; possibly new order.
+2015-03-25 10:50:06,239 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 49, NQM5 FUT GLOBEX 20
+2015-03-25 10:55:55,240 [8] INFO  QTShell.Log4NetLoggerAdapter NQM5 FUT GLOBEX 20 filled size: 1 ; on trade detail: 49,DU206863,20150325,105630,NQM5 FUT GLOBEX 20,1,4404.00
+2015-03-25 10:55:55,247 [1] INFO  QTShell.Log4NetLoggerAdapter NQM5 FUT GLOBEX 20 filled size: 1 ; on trade detail: 49,DU206863,20150325,105630,NQM5 FUT GLOBEX 20,1,4404.00
+2015-03-25 11:09:07,136 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 50, NQM5 FUT GLOBEX 20
+2015-03-25 11:09:07,167 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = 50; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2015-03-25 11:09:07,203 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 50
+2015-03-25 11:09:07,204 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 50 is not found in order table; possibly new order.
+2015-03-25 11:09:07,204 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 50, NQM5 FUT GLOBEX 20
+2015-03-25 11:09:07,204 [8] INFO  QTShell.Log4NetLoggerAdapter NQM5 FUT GLOBEX 20 filled size: -1 ; on trade detail: 50,DU206863,20150325,110942,NQM5 FUT GLOBEX 20,-1,4403.25
+2015-03-25 11:09:07,228 [1] INFO  QTShell.Log4NetLoggerAdapter NQM5 FUT GLOBEX 20 filled size: -1 ; on trade detail: 50,DU206863,20150325,110942,NQM5 FUT GLOBEX 20,-1,4403.25
+2015-03-25 11:25:07,933 [11] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 51, NQM5 FUT GLOBEX 20
+2015-03-25 11:25:07,933 [11] INFO  QTShell.Log4NetLoggerAdapter rid=2, name=MyStrategies.DualTimeFrameMarketOrder, indicator=Time: 112506, RSI_Hi_Fast:27.36, RSI_Hi_Slow:24.93, RSI_Low_Fast:35.80, RSI_Low_Slow:34.76
+2015-03-25 11:25:07,993 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 51
+2015-03-25 11:25:07,994 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 51 is not found in order table; possibly new order.
+2015-03-25 11:25:07,994 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 51, NQM5 FUT GLOBEX 20
+2015-03-25 11:28:08,148 [8] INFO  QTShell.Log4NetLoggerAdapter Order canceled: 51
+2015-03-25 11:38:08,623 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 52, NQM5 FUT GLOBEX 20
+2015-03-25 11:38:08,623 [9] INFO  QTShell.Log4NetLoggerAdapter rid=2, name=MyStrategies.DualTimeFrameMarketOrder, indicator=Time: 113808, RSI_Hi_Fast:24.73, RSI_Hi_Slow:23.28, RSI_Low_Fast:25.66, RSI_Low_Slow:25.32
+2015-03-25 11:38:08,681 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 52
+2015-03-25 11:38:08,681 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 52 is not found in order table; possibly new order.
+2015-03-25 11:38:08,681 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 52, NQM5 FUT GLOBEX 20
+2015-03-25 11:39:08,759 [8] INFO  QTShell.Log4NetLoggerAdapter Order canceled: 52
+2015-03-25 13:00:02,748 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 53, NQM5 FUT GLOBEX 20
+2015-03-25 13:00:02,748 [9] INFO  QTShell.Log4NetLoggerAdapter rid=2, name=MyStrategies.DualTimeFrameMarketOrder, indicator=Time: 130002, RSI_Hi_Fast:22.33, RSI_Hi_Slow:20.53, RSI_Low_Fast:63.04, RSI_Low_Slow:55.55
+2015-03-25 13:00:02,815 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 53
+2015-03-25 13:00:02,815 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 53 is not found in order table; possibly new order.
+2015-03-25 13:00:02,815 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 53, NQM5 FUT GLOBEX 20
+2015-03-25 13:02:01,485 [8] INFO  QTShell.Log4NetLoggerAdapter NQM5 FUT GLOBEX 20 filled size: 1 ; on trade detail: 53,DU206863,20150325,130236,NQM5 FUT GLOBEX 20,1,4356.75
+2015-03-25 13:02:01,487 [8] INFO  QTShell.Log4NetLoggerAdapter Shutting down strategy Dual Time Frame Market Order
+2015-03-25 13:02:01,487 [8] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 54, NQM5 FUT GLOBEX 20
+2015-03-25 13:02:01,488 [1] INFO  QTShell.Log4NetLoggerAdapter NQM5 FUT GLOBEX 20 filled size: 1 ; on trade detail: 53,DU206863,20150325,130236,NQM5 FUT GLOBEX 20,1,4356.75
+2015-03-25 13:02:01,532 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = 54; Error code = 2109; Error Message = Order Event Warning:Attribute 'Outside Regular Trading Hours' is ignored based on the order type and destination. PlaceOrder is now being processed.
+2015-03-25 13:02:01,561 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 54
+2015-03-25 13:02:01,562 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 54 is not found in order table; possibly new order.
+2015-03-25 13:02:01,562 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 54, NQM5 FUT GLOBEX 20
+2015-03-25 13:02:01,562 [8] INFO  QTShell.Log4NetLoggerAdapter NQM5 FUT GLOBEX 20 filled size: -1 ; on trade detail: 54,DU206863,20150325,130236,NQM5 FUT GLOBEX 20,-1,4356.50
+2015-03-25 13:02:01,563 [1] INFO  QTShell.Log4NetLoggerAdapter NQM5 FUT GLOBEX 20 filled size: -1 ; on trade detail: 54,DU206863,20150325,130236,NQM5 FUT GLOBEX 20,-1,4356.50

@@ -1,0 +1,55 @@
+2015-03-26 07:32:55,730 [1] DEBUG QTShell.Log4NetLoggerAdapter Logger was created successfully.
+2015-03-26 07:32:55,755 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating module catalog.
+2015-03-26 07:32:55,756 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring module catalog.
+2015-03-26 07:32:55,769 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating Unity container.
+2015-03-26 07:32:55,910 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring the Unity container.
+2015-03-26 07:32:55,979 [1] DEBUG QTShell.Log4NetLoggerAdapter Adding UnityBootstrapperExtension to container.
+2015-03-26 07:32:56,419 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring ServiceLocator singleton.
+2015-03-26 07:32:56,419 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring region adapters.
+2015-03-26 07:32:56,440 [1] DEBUG QTShell.Log4NetLoggerAdapter Configuring default region behaviors.
+2015-03-26 07:32:56,442 [1] DEBUG QTShell.Log4NetLoggerAdapter Registering Framework Exception Types.
+2015-03-26 07:32:56,443 [1] DEBUG QTShell.Log4NetLoggerAdapter Creating the shell.
+2015-03-26 07:32:56,556 [1] DEBUG QTShell.Log4NetLoggerAdapter Setting the RegionManager.
+2015-03-26 07:32:56,557 [1] DEBUG QTShell.Log4NetLoggerAdapter Updating Regions.
+2015-03-26 07:32:56,669 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing the shell.
+2015-03-26 07:32:57,204 [1] DEBUG QTShell.Log4NetLoggerAdapter Initializing modules.
+2015-03-26 07:32:57,650 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderAndPositions Loaded
+2015-03-26 07:32:57,929 [1] INFO  QTShell.Log4NetLoggerAdapter Module RealTimeQuoteGrid Loaded
+2015-03-26 07:32:58,051 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleStrategyManager Loaded
+2015-03-26 07:32:58,318 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleOrderTicket Loaded
+2015-03-26 07:32:58,588 [1] INFO  QTShell.Log4NetLoggerAdapter Module ModuleFramework Loaded
+2015-03-26 07:32:58,706 [8] INFO  QTShell.Log4NetLoggerAdapter Account: DU206863
+2015-03-26 07:32:58,706 [1] INFO  QTShell.Log4NetLoggerAdapter Server Version: 71
+2015-03-26 07:32:58,707 [8] INFO  QTShell.Log4NetLoggerAdapter Next Valid Order Id: 55
+2015-03-26 07:32:58,710 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfuture
+2015-03-26 07:32:58,710 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2104; Error Message = Market data farm connection is OK:usfarm
+2015-03-26 07:32:58,710 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:ilhmds
+2015-03-26 07:32:58,710 [8] INFO  QTShell.Log4NetLoggerAdapter requestId = -1; Error code = 2106; Error Message = HMDS data farm connection is OK:ushmds
+2015-03-26 07:33:01,722 [1] DEBUG QTShell.Log4NetLoggerAdapter Bootstrapper sequence completed.
+2015-03-26 09:35:08,128 [6] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 55, NQM5 FUT GLOBEX 20
+2015-03-26 09:35:08,168 [6] INFO  QTShell.Log4NetLoggerAdapter rid=2, name=MyStrategies.DualTimeFrameMarketOrder, indicator=Time: 93507, RSI_Hi_Fast:54.14, RSI_Hi_Slow:57.97, RSI_Low_Fast:36.23, RSI_Low_Slow:36.42
+2015-03-26 09:35:08,435 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 55
+2015-03-26 09:35:11,421 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 55 is not found in order table; possibly new order.
+2015-03-26 09:35:11,421 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 55, NQM5 FUT GLOBEX 20
+2015-03-26 09:36:08,162 [9] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 56, ESM5 FUT GLOBEX 50
+2015-03-26 09:36:08,162 [9] INFO  QTShell.Log4NetLoggerAdapter rid=2, name=MyStrategies.DualTimeFrameMarketOrder, indicator=Time: 93607, RSI_Hi_Fast:54.14, RSI_Hi_Slow:57.97, RSI_Low_Fast:48.48, RSI_Low_Slow:47.17
+2015-03-26 09:36:08,290 [8] INFO  QTShell.Log4NetLoggerAdapter Order canceled: 55
+2015-03-26 09:36:09,229 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 56
+2015-03-26 09:36:10,038 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 56 is not found in order table; possibly new order.
+2015-03-26 09:36:10,038 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 56, ESM5 FUT GLOBEX 50
+2015-03-26 09:39:08,345 [8] INFO  QTShell.Log4NetLoggerAdapter Order canceled: 56
+2015-03-26 09:40:08,372 [15] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 57, ESM5 FUT GLOBEX 50
+2015-03-26 09:40:08,372 [15] INFO  QTShell.Log4NetLoggerAdapter rid=2, name=MyStrategies.DualTimeFrameMarketOrder, indicator=Time: 94008, RSI_Hi_Fast:69.34, RSI_Hi_Slow:61.33, RSI_Low_Fast:57.95, RSI_Low_Slow:55.67
+2015-03-26 09:40:08,372 [15] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 58, NQM5 FUT GLOBEX 20
+2015-03-26 09:40:08,372 [15] INFO  QTShell.Log4NetLoggerAdapter rid=2, name=MyStrategies.DualTimeFrameMarketOrder, indicator=Time: 94008, RSI_Hi_Fast:62.59, RSI_Hi_Slow:62.55, RSI_Low_Fast:58.25, RSI_Low_Slow:54.86
+2015-03-26 09:40:08,463 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 57
+2015-03-26 09:40:09,294 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 57 is not found in order table; possibly new order.
+2015-03-26 09:40:09,294 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 57, ESM5 FUT GLOBEX 50
+2015-03-26 09:40:09,295 [8] INFO  QTShell.Log4NetLoggerAdapter order accepted: 58
+2015-03-26 09:40:10,129 [1] INFO  QTShell.Log4NetLoggerAdapter Order id 58 is not found in order table; possibly new order.
+2015-03-26 09:40:10,129 [1] INFO  QTShell.Log4NetLoggerAdapter order put in tracked: 58, NQM5 FUT GLOBEX 20
+2015-03-26 09:40:34,646 [8] INFO  QTShell.Log4NetLoggerAdapter ESM5 FUT GLOBEX 50 filled size: 1 ; on trade detail: 57,DU206863,20150326,94034,ESM5 FUT GLOBEX 50,1,2046.00
+2015-03-26 09:40:34,653 [9] INFO  QTShell.Log4NetLoggerAdapter ESM5 FUT GLOBEX 50 trail tracking modified: p0.00/0 % s5.00/100 %
+2015-03-26 09:40:35,414 [1] INFO  QTShell.Log4NetLoggerAdapter ESM5 FUT GLOBEX 50 filled size: 1 ; on trade detail: 57,DU206863,20150326,94034,ESM5 FUT GLOBEX 50,1,2046.00
+2015-03-26 09:55:09,148 [8] INFO  QTShell.Log4NetLoggerAdapter Order canceled: 58
+2015-03-26 09:56:09,167 [16] INFO  QTShell.Log4NetLoggerAdapter ESM5 FUT GLOBEX 50 hit trailing stop at: 2045.00

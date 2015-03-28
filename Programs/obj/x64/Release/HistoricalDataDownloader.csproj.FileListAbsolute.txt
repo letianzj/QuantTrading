@@ -1,6 +1,6 @@
 C:\Workspace\QuantTrading\Programs\Release\HistoricalDataDownloader.exe.config
 C:\Workspace\QuantTrading\Programs\Release\HistoricalDataDownloader.exe
 C:\Workspace\QuantTrading\Programs\Release\HistoricalDataDownloader.pdb
-C:\Workspace\QuantTrading\Programs\obj\x64\Release\HistoricalDataDownloader.csprojResolveAssemblyReference.cache
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\HistoricalDataDownloader.exe
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\HistoricalDataDownloader.pdb
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\HistoricalDataDownloader.csprojResolveAssemblyReference.cache

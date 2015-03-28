@@ -170,6 +170,7 @@ namespace BackTestWindow
         {
             try
             {
+                
                 _tradelist.Clear();
                 _positionlist.Clear();
 

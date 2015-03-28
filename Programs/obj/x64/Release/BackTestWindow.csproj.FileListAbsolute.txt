@@ -33,3 +33,4 @@ C:\Workspace\QuantTrading\Programs\obj\x64\Release\BackTestWindow.Properties.Res
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\BackTestWindow.csproj.GenerateResource.Cache
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\BackTestWindow.exe
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\BackTestWindow.pdb
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\GeneratedInternalTypeHelper.g.cs

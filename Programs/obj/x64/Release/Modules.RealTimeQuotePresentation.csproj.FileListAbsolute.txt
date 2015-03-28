@@ -4,6 +4,7 @@ C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.RealTimeQuotePresenta
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Views\QuotePlotView.baml
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Views\QuoteGridView.g.cs
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Views\QuotePlotView.g.cs
+C:\Workspace\QuantTrading\Programs\obj\x64\Release\GeneratedInternalTypeHelper.g.cs
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.RealTimeQuotePresentation_MarkupCompile.cache
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Modules.RealTimeQuotePresentation_MarkupCompile.lref
 C:\Workspace\QuantTrading\Programs\obj\x64\Release\Views\QuoteGridView.baml

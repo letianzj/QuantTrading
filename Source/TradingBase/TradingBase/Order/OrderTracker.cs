@@ -37,8 +37,8 @@ namespace TradingBase
         public OrderTracker(int capacity)
         {
             _orders = new Dictionary<long, Order>(capacity);
-            _sents = new Dictionary<long, int>(capacity);
-            _fills = new Dictionary<long, int>(capacity);
+            _sents = new Dictionary<long, int>(capacity);           // order size
+            _fills = new Dictionary<long, int>(capacity);           // filled size
             _cancels = new Dictionary<long, bool>(capacity);
         }
         public void Clear()
@@ -190,6 +190,7 @@ namespace TradingBase
             else
                 return new Order();
         }
+
         #endregion
 
         public event Action<string> SendDebugEvent;
