@@ -15,6 +15,7 @@ DailyPreMarket and HistoricalDataDownloader are console based in order to be set
 
 ### Keywords
 <b>Quantitative</b>: Econometrics, Time Series, Technical Analysis, Statistical Arbitrage, Kalman Filter, Machine Learning.
+
 <b>Technical</b>: WCF, WPF, MVVM, Rx, Prism, Concurrency, TPL, LINQ
 
 ### Installation
