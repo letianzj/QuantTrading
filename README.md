@@ -40,6 +40,6 @@ DailyPreMarket and HistoricalDataDownloader are console based in order to be set
 (10) Don't forget to check out Git Repository for latest development. Enjoy !
 
 ### Figures
-![alt tag](https://letian78.files.wordpress.com/2014/10/goog1.png)
+![alt tag](https://letianquant.files.wordpress.com/2014/10/goog1.png)
 
-![alt tag](https://letian78.files.wordpress.com/2015/03/multithreading.png)
+![alt tag](https://letianquant.files.wordpress.com/2015/03/multithreading.png)
