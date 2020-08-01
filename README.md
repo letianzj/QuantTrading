@@ -2,6 +2,8 @@ QuantTrading
 ============
 
 ## Project Description
+This project is not actively maintained. There are other open source C# projects available for example listed [here](https://github.com/EliteQuant/EliteQuant#trading-system).
+
 A real-time quantitative trading/backtesting platform in C#, supporting IB (full brokerage) and Google Finance (quote only). It adds R support through R.NET.
 
 ## Project Summary
@@ -43,3 +45,5 @@ DailyPreMarket and HistoricalDataDownloader are console based in order to be set
 ![alt tag](https://letianquant.files.wordpress.com/2014/10/goog1.png)
 
 ![alt tag](https://letianquant.files.wordpress.com/2015/03/multithreading.png)
+
+**DISCLAIMER** Open source, free to use, free to contribute, use at own risk. No promise of future profits nor responsibility of future loses.
